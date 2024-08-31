@@ -9,11 +9,7 @@ Segundo a ASN - Agência Sebrae de Notícias o mercado da beleza já é um dos q
 Portanto, a proposta do projeto é criar uma aplicação WEB para suprir as necessidades de uma barbearia e auxiliar na gestão dos atendimentos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Observando a alta na demanda pelos serviços de beleza e autocuidado, percebe-se a necessidade de ferramentas para auxiliar na gestão da agenda dos profissionais. Os problemas são vários: ao utilizar tecnologias como o whatsapp ou chat do instagram, o profissional pode não responder em tempo hábil e perder um cliente, ou, confundir-se e sobrepor horários, gerando conflitos na agenda e tempo de espera desnecessário. O cliente pode precisar trocar a data e horário do agendamento e se ver frente ao mesmo problema de eficiência. Essa situação ocasiona um atrito para realização do serviço, ou seja, ocorre o desgaste em conseguir encaixar a agenda de ambos, o barbeiro e o cliente. Outro ponto de desgaste é o cliente não ter acesso aos horários disponíveis na agenda do profissional, fato que poderia possibilitar ao cliente a liberdade de encaixar um horário conforme sua agenda. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
