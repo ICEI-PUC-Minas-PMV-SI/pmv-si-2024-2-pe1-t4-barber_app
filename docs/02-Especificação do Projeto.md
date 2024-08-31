@@ -48,9 +48,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| O sistema deve autenticar o usuário | ALTA | 
+|RF-002| Deve haver uma lista dos dias e horários disponíveis na tela do cliente   | ALTA |
+|RF-003| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
+|RF-004| O sistema deve redirecionar cliente e barbeiro para telas diferentes   | MÉDIA |
+|RF-005| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | MÉDIA | 
+|RF-006| O Barbeiro deve ser capaz de finalizar um atendimento, para que seja possível iniciar o próximo atendimento  | MÉDIA |
+|RF-007| O sistema deve gerar um código de validação para o cliente informar ao barbeiro na hora de iniciar o atendimento | MÉDIA | 
+|RF-008| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro   | MÉDIA |
+|RF-009| O Barbeiro deve ser capaz de cancelar um agendamento ainda não confirmado | MÉDIA | 
+|RF-010| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação   | BAIXA |
+|RF-011| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não. | BAIXA | 
+|RF-012| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente.   | BAIXA |
 
 ### Requisitos não Funcionais
 
