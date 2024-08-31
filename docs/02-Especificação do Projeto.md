@@ -39,15 +39,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Barbearia  | Preciso cadastrar meus colaboradores          | Para poder cadastrar os profissionais que prestão serviço na barbearia.              |
 |Barbearia       | Preciso cadastrar serviços disponíveis na barbearia                 | Para poder gerenciar e atualizar os serviços disponiveis aos clientes. |
 |Barbearia | Preciso acompanhar os agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinamica de atendimento da barberia como um todo.               |
+|Cliente       | Preciso consultar os horários disponiveis                | Para que o cliente tenha a liberdade de escolher o melhor dia e horário |
+|Cliente  | Preciso consultar meu histórico de atendimentos           | Para que o cliente consiga consultar seu último atendimento e se programar para um novo agendamento               |
+|Cliente       | Preciso consultar meu horário de agendamento                 | Pare que o cliente acompanhe com certa recorrência o horário agendado |
+|Cliente  | Preciso ser notificado às vésperas do dia/ horário agendado          | Para que o cliente possa confirmar o agendamento e não esquecer de comparacer a barbearia              |
+|Cliente       | Preciso agendar dia e horário na barbearia                 | Para que o cliente consiga efetuar agendamento no dia de preferencia conforme os horários disponiveis |
 
-
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 
 
