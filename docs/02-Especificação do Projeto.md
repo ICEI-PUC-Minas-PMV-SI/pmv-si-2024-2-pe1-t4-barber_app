@@ -8,7 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Clientes
+
+João tem 20 anos é um jovem estudante da Geração Z que valoriza a eficiência e a rapidez nas interações digitais. Ele corta o cabelo a cada duas semanas ou pelo menos todo mês, como os adolescentes de sua idade e prefere serviços que ofereçam agilidade. Impaciente, ele desiste dos serviços quando não recebe respostas imediatas e/ou encontra dificuldades para agendar os serviços de seu barbeiro, pois está acostumado com a velocidade . Para ele, o agendamento online é essencial, permitindo que ele escolha horários rapidamente e receba confirmações instantâneas. busca agendar cortes de cabelo de maneira rápida e fácil, sem precisar esperar respostas ou fazer ligações. Fica frustrações quanto ao tempo de espera para respostas, e a falta de integração digital no agendamento de serviços.
+
+Carlos tem 37 anos, é executivo de uma empresa tendo uma carreira exigente, o que deixa seu tempo extremamente limitado. Manter uma aparência impecável é importante para sua profissão, mas ele enfrenta dificuldades para encontrar horários convenientes para ir ao barbeiro. Ele valoriza serviços que lhe permitam otimizar seu tempo, como agendamentos online que se encaixam facilmente em sua agenda apertada. Sempre procura manter uma aparência profissional sem comprometer seu tempo de trabalho. Fica frustrado quando tem dificuldade em encontrar horários disponíveis, ou perda de tempo com processos de agendamento.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
