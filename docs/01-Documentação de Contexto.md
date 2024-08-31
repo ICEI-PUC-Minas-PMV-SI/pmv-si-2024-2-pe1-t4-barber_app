@@ -27,9 +27,12 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A experiência do cliente com uma empresa de forma geral irá determinar se ela continuará ou não usando os seus produtos ou serviços, nessa fórmula deve-se considerar não somente a qualidade dos serviços/produtos, mas também uma série de outros fatores, como a comunicação assertiva, o atendimento das demandas espontâneas dos clientes, a praticidade do contato com o prestador de serviço, etc. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Segundo pesquisa da PwC 49% dos consumidores na America Latina não voltaria a realizar compras de produtos ou serviços após uma experiência ruim com uma empresa. Ainda, 80% dos consumidores entendem que a velocidade, a conveniência, informações certas e serviço amigável são expectativas cruciais para uma experiência positiva do cliente. Quando essas expectativas dos clientes são atendidas ou até mesmo superadas, as empresas alavancam seus indicadores comerciais, inclusive com o aumento do faturamento. A pesquisa também evidenciou que para a Geração Z, as expectativas de serviços instantâneos é o esperado, a conveniência de transição perfeita de tablet e smartphone para o ser humano já considerada uma expectativa básica. 
+
+Para 65% dos consumidores dos EUA, uma experiência positiva com a empresa é mais influente em suas decisões de compra do que uma ótima propaganda ou campanha de marketing. Já 73% de todos os consumidores apontam a experiência como fator importante nas decisões de compra. 
+
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
