@@ -32,10 +32,24 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
+|Barbeiro  | Preciso acompanhar minha agenda de atendimentos           |Para que o barbeiro possa verificar com recorrência os horários para atendimento.             |
+|Barbeiro       | Preciso bloquear horários em minha agenda            | Para que o barbeiro consiga bloquerar sua agenda quando necessário. |
+|Barbeiro  |Preciso que seja enviado uma notificação solicitando confirmação para o cliente           | Para que o barbeiro possa acompanhar quais horário estão de fato confirmados ou não.             |
+|Barbeiro       |Preciso cancelar um agendamento não confirmado               | Para que o barbeiro consiga cancelar um atendimento não confirmado. |
+|Barbearia  | Preciso cadastrar meus colaboradores          | Para poder cadastrar os profissionais que prestão serviço na barbearia.              |
+|Barbearia       | Preciso cadastrar serviços disponíveis na barbearia                 | Para poder gerenciar e atualizar os serviços disponiveis aos clientes. |
+|Barbearia | Preciso acompanhar os agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinamica de atendimento da barberia como um todo.               |
+
+
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
