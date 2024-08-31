@@ -1,9 +1,9 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: BarberApp
 authors:
-  - family-names:
-    given-names:
+  - family-names: Alves Coelho
+    given-names: Bruno
   - family-names:
     given-names:
   - family-names:
@@ -18,12 +18,12 @@ authors:
     given-names:
   - name-suffix: Professor XXXX
     affiliation: PUC Minas
-    family-names:
-    given-names:
+    family-names: Hanne Soares de Andrade
+    given-names: Michelle
 keywords:
-  -
-  -
-repository-code:
+  - Barbearia
+  - Agendamento
+repository-code: https://github.com/orgs/ICEI-PUC-Minas-PMV-SI/teams/barber_app
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
