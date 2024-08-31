@@ -1,6 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo a Forbes, o setor de beleza e cuidados pessoais coloca o Brasil como o quarto lugar no ranking mundial. Já o mercado brasileiro de beleza masculina em 2023 era o segundo maior do setor no ranking mundial. Os investimentos neste departamento estão crescendo significativamente, principalmente em campanhas publicitárias especializadas e no desenvolvimento de linhas cosméticas e de autocuidado focadas no público masculino. 
+
+Esse mercado esteve dentre os que tiveram os melhores indicadores de recuperação econômica pós-pandemia de COVID-19. Tal fato deve-se às estratégias dos microempreendedores que dedicaram esforços nas campanhas de marketing e divulgação com foco no autocuidado, temática que esteve em voga durante o cenário de isolamento social. Nesse mesmo período, já eram cerca de 800 mil profissionais atuando como cabeleireiros(as) ou manicures.
+
+Segundo a ASN - Agência Sebrae de Notícias o mercado da beleza já é um dos que mais cresce no Brasil, conforme levantamento realizado pelo Sebrae Minas baseado em dados da Receita Federal, Minas Gerais possui mais de 163 mil pequenos negócios voltados para o setor de beleza, desses quase 20% negócios estão em Belo Horizonte, ou seja, cerca de 30,6 mil empreendimentos.
+
+Portanto, a proposta do projeto é criar uma aplicação WEB para suprir as necessidades de uma barbearia e auxiliar na gestão dos atendimentos.
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
