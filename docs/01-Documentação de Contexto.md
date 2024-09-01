@@ -48,9 +48,11 @@ Considerando que toda relação comercial é efetivada em, pelo menos, duas part
 O público-alvo do projeto foi dividido em dois, tendo uma relação direta e muitas das vezes pessoal na prestação serviços de barbearia, mas como qualquer relação tendo como perspectiva os atritos de comunicação que podem ocorrer.
 
 Cliente
+
 Homens familiarizados com o uso das tecnologias, em especial com a utilização de smartphones. Clientes habituais de serviços de barbearia, situados nos grandes centros metropolitanos. 
 
 Barbearia
+
 Barbearias de pequeno e médio porte, que querem gerenciar seus profissionais, com objetivo de aumentar o faturamento através da melhor gestão dos seus horários de atendimento,  focados em obter uma melhor experiência oferecida aos clientes. C om profissionais também familiarizados com o uso das tecnologias, em especial com a utilização de smartphones.
 
 
