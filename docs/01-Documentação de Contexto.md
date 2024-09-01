@@ -44,10 +44,15 @@ Portanto apresentados esses pontos, fica evidente a necessidade de melhorar a ex
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Considerando que toda relação comercial é efetivada em, pelo menos, duas partes, o público-alvo foi definido em barbearia e clientes. 
+O público-alvo do projeto foi dividido em dois, tendo uma relação direta e muitas das vezes pessoal na prestação serviços de barbearia, mas como qualquer relação tendo como perspectiva os atritos de comunicação que podem ocorrer.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Cliente
+Homens familiarizados com o uso das tecnologias, em especial com a utilização de smartphones. Clientes habituais de serviços de barbearia, situados nos grandes centros metropolitanos. 
+
+Barbearia
+Barbearias de pequeno e médio porte, que querem gerenciar seus profissionais, com objetivo de aumentar o faturamento através da melhor gestão dos seus horários de atendimento,  focados em obter uma melhor experiência oferecida aos clientes. C om profissionais também familiarizados com o uso das tecnologias, em especial com a utilização de smartphones.
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
