@@ -14,6 +14,12 @@ João tem 20 anos é um jovem estudante da Geração Z que valoriza a eficiênci
 
 Carlos tem 37 anos, é executivo de uma empresa tendo uma carreira exigente, o que deixa seu tempo extremamente limitado. Manter uma aparência impecável é importante para sua profissão, mas ele enfrenta dificuldades para encontrar horários convenientes para ir ao barbeiro. Ele valoriza serviços que lhe permitam otimizar seu tempo, como agendamentos online que se encaixam facilmente em sua agenda apertada. Sempre procura manter uma aparência profissional sem comprometer seu tempo de trabalho. Fica frustrado quando tem dificuldade em encontrar horários disponíveis, ou perda de tempo com processos de agendamento.
 
+Barbeiros
+
+Lucas tem 28 anos é um jovem barbeiro que recentemente abriu sua própria barbearia. Ele está no início de sua jornada como microempreendedor e busca maneiras de atrair mais clientes e administrar seu negócio com eficiência. Embora tenha habilidades técnicas sólidas, Lucas ainda está se familiarizando com as ferramentas digitais que podem ajudar na gestão de sua barbearia. Tem como objetivos crescer seu negócio, atrair novos clientes, e facilitar a gestão do atendimento. Fica frustrado quando encontra ao gerenciar agendamentos manualmente.
+
+Pedro tem 38 anos, é um barbeiro experiente que possui uma barbearia há alguns anos. Ele ainda não conseguiu expandir seu negócio como gostaria e enfrenta desafios para aumentar sua base de clientes. Pedro reconhece a importância da tecnologia na expansão de seu negócio, mas ainda depende de métodos tradicionais para gerenciar agendamentos e interagir com seus clientes. Seus objetivos são expandir seu negócio, automatizar processos e aumentar sua eficiência operacional. Fica frustrado em realizar a gestão manual de agendamentos.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
