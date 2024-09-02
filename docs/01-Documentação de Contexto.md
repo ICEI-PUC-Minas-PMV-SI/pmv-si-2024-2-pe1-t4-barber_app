@@ -18,9 +18,13 @@ Observando a alta na demanda pelos serviços de beleza e autocuidado, percebe-se
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo principal deste projeto é desenvolver uma aplicação Web que contribua para o gerenciamento da agenda do barbeiro. A solução consiste em contornar os problemas mencionados, melhorando a experiência do cliente quanto ao serviço prestado. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos: 
+
+Identificar as dificuldades e necessidades dos clientes e barbearias no agendamento de horários;
+Eliminar os conflitos existente com os habituais canais de agendamento de horários, garantindo uma experiência mais fluida;
+Facilitar e viabilizar o agendamento de horários junto às barbearias,oferecendo uma solução prática e acessível para barbearias e clientes.;
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
