@@ -22,9 +22,9 @@ O objetivo principal deste projeto é desenvolver uma aplicação Web que contri
 
 Como objetivos específicos: 
 
-Identificar as dificuldades e necessidades dos clientes e barbearias no agendamento de horários;
-Eliminar os conflitos existente com os habituais canais de agendamento de horários, garantindo uma experiência mais fluida;
-Facilitar e viabilizar o agendamento de horários junto às barbearias,oferecendo uma solução prática e acessível para barbearias e clientes.;
+- Identificar as dificuldades e necessidades dos clientes e barbearias no agendamento de horários;
+- Eliminar os conflitos existente com os habituais canais de agendamento de horários, garantindo uma experiência mais fluida;
+- Facilitar e viabilizar o agendamento de horários junto às barbearias,oferecendo uma solução prática e acessível para barbearias e clientes.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
