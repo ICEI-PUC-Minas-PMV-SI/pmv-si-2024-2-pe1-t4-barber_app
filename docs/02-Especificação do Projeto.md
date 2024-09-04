@@ -70,7 +70,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve autenticar o usuário de acordo com seu perfil | ALTA | 
-|RF-002| Deve haver uma lista dos dias e horários disponíveis na tela do cliente   | ALTA |
+|RF-002| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente   | ALTA |
 |RF-003| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
 |RF-004| O sistema deve redirecionar cliente e barbeiro para telas diferentes   | MÉDIA |
 |RF-005| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | MÉDIA | 
