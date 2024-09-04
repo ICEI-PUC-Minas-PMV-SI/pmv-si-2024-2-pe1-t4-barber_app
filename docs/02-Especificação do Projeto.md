@@ -49,7 +49,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Cliente  | Preciso consultar meu histórico de atendimentos           | Para que o cliente consiga consultar seu último atendimento e se programar para um novo agendamento               |
 |Cliente       | Preciso consultar meu horário de agendamento                 | Pare que o cliente acompanhe com certa recorrência o horário agendado |
 |Cliente  | Preciso ser notificado às vésperas do dia/ horário agendado          | Para que o cliente possa confirmar o agendamento e não esquecer de comparacer a barbearia              |
-|Cliente       | Preciso agendar dia e horário na barbearia                 | Para que o cliente consiga efetuar agendamento no dia de preferencia conforme os horários disponiveis |
+|Cliente       | Preciso agendar serviço na barbearia                 | Para que o cliente consiga efetuar agendamento no dia de preferencia conforme os horários disponiveis |
 
 
 
