@@ -14,8 +14,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * 
 * Israel dos Reis Costa Junior
 * João Pedro Soares Leite
-* Murilo Marques da Silva
 * Katiuscia Leles Bento
+* Murilo Marques da Silva
 
 ## Orientador
 
