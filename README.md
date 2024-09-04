@@ -11,15 +11,15 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Bruno Alves Coelho
+* 
 * Israel dos Reis Costa Junior
+* João Pedro Soares Leite
 * Murilo Marques da Silva
 * Katiuscia Leles Bento
-* Nome completo do aluno 3
-* Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
+* Michelle Hanne Soares de Andrade
 
 ## Instruções de utilização
 
