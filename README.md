@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruno Alves Coelho
 * Israel dos Reis Costa Junior
 * Murilo Marques da Silva
-* Nome completo do aluno 2
+* Katiuscia Leles Bento
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
