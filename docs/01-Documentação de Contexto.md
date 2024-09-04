@@ -1,6 +1,6 @@
 # Introdução
 
-Segundo a Forbes (2020), o setor de beleza e cuidados pessoais coloca o Brasil como o quarto lugar no ranking mundial. Já o mercado brasileiro de beleza masculina em 2023 era o segundo maior do setor no ranking mundial. Os investimentos neste departamento estão crescendo significativamente, principalmente em campanhas publicitárias especializadas e no desenvolvimento de linhas cosméticas e de autocuidado focadas no público masculino. 
+Segundo a Forbes (2020) [1], o setor de beleza e cuidados pessoais coloca o Brasil como o quarto lugar no ranking mundial. Já o mercado brasileiro de beleza masculina em 2023 era o segundo maior do setor no ranking mundial. Os investimentos neste departamento estão crescendo significativamente, principalmente em campanhas publicitárias especializadas e no desenvolvimento de linhas cosméticas e de autocuidado focadas no público masculino. 
 
 Esse mercado esteve dentre os que tiveram os melhores indicadores de recuperação econômica pós-pandemia de COVID-19. Tal fato deve-se às estratégias dos microempreendedores que dedicaram esforços nas campanhas de marketing e divulgação com foco no autocuidado, temática que esteve em voga durante o cenário de isolamento social. Nesse mesmo período, já eram cerca de 800 mil profissionais atuando como cabeleireiros(as) ou manicures.
 
