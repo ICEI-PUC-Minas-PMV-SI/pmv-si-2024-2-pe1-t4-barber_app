@@ -11,7 +11,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Bruno Alves Coelho
-* 
 * Israel dos Reis Costa Junior
 * João Pedro Soares Leite
 * Katiuscia Leles Bento
