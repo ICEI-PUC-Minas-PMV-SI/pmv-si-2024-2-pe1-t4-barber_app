@@ -1,10 +1,10 @@
 # Barber App
 
-`Sistemas de Informação`
+`Curso: Sistemas de Informação`
 
-`Projeto: Aplicações Web`
+`Disciplina: Projeto: Aplicações Web`
 
-`Eixo 1`
+`Semestre: Eixo 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
