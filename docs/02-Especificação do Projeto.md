@@ -82,16 +82,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação   | BAIXA |
 |RF-012| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não. | BAIXA | 
 |RF-013| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente.   | BAIXA |
+|RF-014| Apurar os serviços realizados pelo barbeiro   | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Deve ser gerado um id único para cada usuário cadastrado | ALTA | 
-|RNF-002| As senhas dos usuários devem ser criptografadas em crypto |  ALTA | 
-|RNF-003| O tempo para acesso da plataforma não deve superar 3 segundos |  MEDIA | 
-|RNF-004| O token informado pelo cliente também deve ser um hash | BAIXA | 
-|RNF-005| O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores |  BAIXA | 
+|RNF-001| Será utilizado JSON-server | ALTA | 
+|RNF-002| A interface do sistema deve ser elaborada de forma amigável e convidativa, utilizando uma estética atraente de elementos visuais, promovendo um design limpo, descomplicado, que facilite a navegação e priorize sempre a funcionalidade do sistema. |  ALTA | 
+|RNF-003| Deve ser gerado um id único para cada usuário cadastrado | ALTA | 
+|RNF-004| As senhas dos usuários devem ser criptografadas em crypto | ALTA | 
+|RNF-005| O tempo para acesso da plataforma não deve superar 3 segundos | MEDIA | 
+|RNF-006| O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores | BAIXA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
