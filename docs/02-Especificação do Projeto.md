@@ -69,17 +69,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve autenticar o usuário de acordo com seu perfil | ALTA | 
-|RF-002| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente   | ALTA |
-|RF-003| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
-|RF-004| O sistema deve redirecionar cliente e barbeiro para telas diferentes   | MÉDIA |
-|RF-005| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | MÉDIA | 
-|RF-006| O Barbeiro deve ser capaz de finalizar um atendimento, para que seja possível iniciar o próximo atendimento  | MÉDIA |
-|RF-007| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro   | MÉDIA |
-|RF-008| O Barbeiro deve ser capaz de cancelar um agendamento ainda não confirmado | MÉDIA | 
-|RF-019| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação   | BAIXA |
-|RF-010| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não. | BAIXA | 
-|RF-011| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente.   | BAIXA |
+|RF-001| O cliente deve ser capaz de realizar o cadastro no sistema.   | ALTA |
+|RF-002| O gerente da barbearia deve cadastrar os dados do estabelecimento.   | ALTA |
+|RF-003| O sistema deve autenticar o usuário de acordo com seu perfil | ALTA | 
+|RF-004| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente   | ALTA |
+|RF-005| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
+|RF-006| O sistema deve redirecionar cliente e barbeiro para telas diferentes   | MÉDIA |
+|RF-007| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | MÉDIA | 
+|RF-008| O Barbeiro deve ser capaz de finalizar um atendimento, para que seja possível iniciar o próximo atendimento  | MÉDIA |
+|RF-009| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro   | MÉDIA |
+|RF-010| O Barbeiro deve ser capaz de cancelar um agendamento ainda não confirmado | MÉDIA | 
+|RF-011| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação   | BAIXA |
+|RF-012| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não. | BAIXA | 
+|RF-013| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente.   | BAIXA |
 
 ### Requisitos não Funcionais
 
