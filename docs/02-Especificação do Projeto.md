@@ -70,8 +70,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O cliente deve ser capaz de realizar o cadastro no sistema.   | ALTA |
-|RF-002| O gerente da barbearia deve cadastrar os dados do estabelecimento.   | ALTA |
-|RF-003| O gerente dev cadastrar os barbeiros. | ALTA |
+|RF-002| O administrador da barbearia deve cadastrar os dados do estabelecimento.   | ALTA |
+|RF-003| O administrador deve cadastrar os barbeiros. | ALTA |
 |RF-004| O sistema deve autenticar o usuário de acordo com seu perfil | ALTA | 
 |RF-005| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente   | ALTA |
 |RF-006| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
