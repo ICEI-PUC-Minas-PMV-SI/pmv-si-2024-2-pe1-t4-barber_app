@@ -2,9 +2,13 @@
 
 `Curso: Sistemas de Informação`
 
-`Disciplina: Projeto: Aplicações Web`
+`Disciplina: Eixo 1 - Projeto: Aplicações Web`
 
-`Semestre: Eixo 1`
+`Semestre: 2024/2`
+
+Com a alta na demanda pelos serviços de beleza e autocuidado, percebe-se a necessidade de ferramentas para auxiliar na gestão da agenda dos profissionais. Os problemas são vários: ao utilizar tecnologias como o whatsapp ou chat do instagram, o profissional pode não responder em tempo hábil e perder um cliente, ou, confundir-se e sobrepor horários, gerando conflitos na agenda e tempo de espera desnecessário. O cliente pode precisar trocar a data/horário de agendamento e se ver frente ao mesmo problema de eficiência. Em resumo, o atrito no agendamento afeta diretamente a eficiência da gestão da agenda do profissional e a satisfação do cliente.
+
+O objetivo principal deste trabalho interdisciplinar é desenvolver uma aplicação Web que contribua para o gerenciamento da agenda do barbeiro. A solução consiste em contornar os problemas mencionados, melhorando a experiência do cliente quanto ao serviço prestado. Além disso foram traçados como objetivos específicos: identificar as dificuldades e necessidades dos clientes e barbearias no agendamento de horários; eliminar os conflitos existente com os habituais canais de agendamento de horários, garantindo uma experiência mais fluida; facilitar e viabilizar o agendamento de horários junto à barbearia, oferecendo uma solução prática e acessível para a barbearia e clientes.
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
