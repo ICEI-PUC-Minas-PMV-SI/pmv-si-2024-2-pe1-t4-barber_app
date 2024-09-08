@@ -12,7 +12,7 @@ _
 **[4]** - _MOVIDESK. **6 dicas para reduzir os pontos de atrito no relacionamento com o cliente.** 2022. Disponível em:
 <https://conteudo.movidesk.com/atrito-atendimento/> Acesso em 25 de agosto de 2024._
 
-**[5]** - _PWC, PricewaterhouseCoopers. **Experience is everything. Get it right.** 2024. Disponível em:
+**[5]** - _PWC, PricewaterhouseCoopers. **Experience is everything. Get it right.** 2018. Disponível em:
 <https://www.pwc.com/us/en/services/consulting/library/consumer-intelligence-series/future-of-customer-experience.html> Acesso em 25 de agosto de 2024.
 _
 
