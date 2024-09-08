@@ -39,17 +39,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Barbeiro  | Preciso acompanhar minha agenda de atendimentos           |Para que o barbeiro possa verificar com recorrência os horários para atendimento.             |
-|Barbeiro       | Preciso bloquear horários em minha agenda            | Para que o barbeiro consiga bloquerar sua agenda quando necessário. |
+|Barbeiro       | Preciso bloquear horários em minha agenda            | Para que o barbeiro consiga bloquear sua agenda quando necessário. |
 |Barbeiro  |Preciso que seja enviado uma notificação solicitando confirmação para o cliente           | Para que o barbeiro possa acompanhar quais horário estão de fato confirmados ou não.             |
 |Barbeiro       |Preciso cancelar um agendamento não confirmado               | Para que o barbeiro consiga cancelar um atendimento não confirmado. |
 |Barbearia  | Preciso realizar o cadastro dos barbeiros        | Para poder cadastrar os profissionais que prestão serviço na barbearia.              |
-|Barbearia       | Preciso cadastrar serviços disponíveis na barbearia                 | Para poder gerenciar e atualizar os serviços disponiveis aos clientes. |
-|Barbearia | Preciso acompanhar os agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinamica de atendimento da barberia como um todo.               |
+|Barbearia       | Preciso cadastrar serviços disponíveis na barbearia                 | Para poder gerenciar e atualizar os serviços disponíveis aos clientes. |
+|Barbearia | Preciso acompanhar os agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinâmica de atendimento da barberia como um todo.               |
 |Cliente       | Preciso consultar os horários disponíveis nas agendas                | Para que o cliente tenha a liberdade de escolher o melhor dia e horário |
 |Cliente  | Preciso consultar meu histórico de atendimentos           | Para que o cliente consiga consultar seu último atendimento e se programar para um novo agendamento               |
 |Cliente       | Preciso consultar meu horário de agendamento                 | Pare que o cliente acompanhe com certa recorrência o horário agendado |
 |Cliente  | Preciso ser notificado às vésperas do dia/ horário agendado          | Para que o cliente possa confirmar o agendamento e não esquecer de comparacer a barbearia              |
-|Cliente       | Preciso agendar serviço na barbearia                 | Para que o cliente consiga efetuar agendamento no dia de preferencia conforme os horários disponiveis |
+|Cliente       | Preciso agendar serviço na barbearia                 | Para que o cliente consiga efetuar agendamento no dia de preferência conforme os horários disponíveis |
 
 
 
