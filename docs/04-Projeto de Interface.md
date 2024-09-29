@@ -62,6 +62,18 @@ O cliente tem a opção de verificar o histórico de serviços que consumiu na b
 ![UserFlow](img/CLIENTE_MEUS_ATENDIMENTOS.jpg)
 
 
+### Acesso Barbeiro - Minha Agenda
+O barbeiro consegue acompanhar sua agenda de atendimentos tendo a possibilidade de incluir ou cancelar o agendamento.
+
+![UserFlow](img/BARBEIRO_AGENDA.jpg)
+
+
+### Acesso Barbeiro - Históricos de Atendimentos
+O barbeiro tem a opção de verificar o histórico dos seus atendimentos.
+
+![UserFlow](img/BARBEIRO_HIST_ATENDIMENTOS.jpg)
+
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
