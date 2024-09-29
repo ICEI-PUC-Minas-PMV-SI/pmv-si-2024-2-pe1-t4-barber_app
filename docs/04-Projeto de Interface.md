@@ -46,6 +46,11 @@ Tela dedicada para o usuário realizar o agendamento.
 
 ![UserFlow](img/CLIENTE_AGENDAR.jpg)
 
+### Pré-Agendamento 
+Nessa tela, o cliente revisará o agendamento feito antes de confirmar. 
+
+![UserFlow](img/CLIENTE_PREAGENDAMENTO.jpg)
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
