@@ -94,14 +94,24 @@ O Administrador consegue cadastrar novas unidades.
 ![UserFlow](img/ADM_UNIDADE_CADASTRO.jpg)
 
 ### Acesso Administrador - Serviços Cadastrados
-O Administrador consegue visualizar serviços cadastrados
+O Administrador consegue visualizar serviços cadastrados.
 
 ![UserFlow](img/ADM_SERVICO.jpg)
 
 ### Acesso Administrador - Cadastrar Novos Serviços
-O Administrador consegue cadastrar novos serviços cadastrados
+O Administrador consegue cadastrar novos serviços cadastrados.
 
 ![UserFlow](img/ADM_SERVICO_CADASTRO.jpg)
+
+### Acesso Administrador - Acompanhar Agenda
+O Administrador consegue acompanhar a agenda de um barbeiro.
+
+![UserFlow](img/ADM_AGENDA_ATENDIMENTO.jpg)
+
+### Acesso Administrador - Acompanhar Histórico de Atendimentos
+O Administrador consegue acompanhar o histórico de atendimentos de um barbeiro.
+
+![UserFlow](img/ADM_HIST_ATENDIMENTOS.jpg)
 
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
