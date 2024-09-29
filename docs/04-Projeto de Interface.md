@@ -22,8 +22,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 ### Home
 Esta é a página inicial, na qual serão destacadas nossa história , nossos serviços e feedbacks. Inclui o menu de navegação, opção de cadastro, informações sobre produtos.
 
