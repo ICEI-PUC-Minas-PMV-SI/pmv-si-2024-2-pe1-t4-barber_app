@@ -8,7 +8,7 @@ No site Zé Barber, estamos priorizando a acessibilidade e praticidade para os c
 ### Logo
 Logo do Site
 
-![UserFlow](img/Logo_Ze_Barbeiro.png)
+![UserFlow](img/LOGO.jpg)
 
 ### Cabeçalho
 Cabeçalho do site
