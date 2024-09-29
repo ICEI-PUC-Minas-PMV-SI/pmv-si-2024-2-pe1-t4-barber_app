@@ -73,6 +73,16 @@ O barbeiro tem a opção de verificar o histórico dos seus atendimentos.
 
 ![UserFlow](img/BARBEIRO_HIST_ATENDIMENTOS.jpg)
 
+### Acesso Administrador - Barbeiros Cadastrados
+O Administrador pode visualizar os profissionais que prestão serviço na barbearia.
+
+![UserFlow](img/ADM_BARBEIRO.jpg)
+
+### Acesso Administrador - Barbeiros Cadastrar Novos
+O Administrador pode efetuar o cadastro de novos profissionais.
+
+![UserFlow](img/ADM_BARBEIRO_CADASTRO.jpg)
+
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
