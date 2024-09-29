@@ -8,24 +8,22 @@ No site Zé Barber, estamos priorizando a acessibilidade e praticidade para os c
 ### Logo
 Logo do Site
 
-![UserFlow](img/USERFLOW_BARBER_APP.jpg)
+![UserFlow](img/Logo_Ze_Barbeiro.jpg)
 
 ### Cabeçalho
 Cabeçalho do site
 
-![index-init (4)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-60tech/assets/71785328/8c4bd253-8d58-4f3e-8fc5-f04550cffd35)
+![UserFlow](img/CABECALHO.jpg)
 
 
 ### Footer
 Rodapé do site
 
-![rodape](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-60tech/assets/71785328/fe750599-2955-478c-9c81-d7fbaaca2f2f)
-
+![UserFlow](img/FOOTER.jpg)
 ### Home
 Página inicial
 
-![index-init (1)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-60tech/assets/71785328/63108654-6df0-4476-ad36-df02dad8f2dd)
-
+![UserFlow](img/HOMEPAGE.jpg)
 
 __________________________________________________
 
@@ -33,16 +31,23 @@ __________________________________________________
 
 ## Cores
 Paleta de cores utilizadas
-![Group 83](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-60tech/assets/71785328/3012b0ef-a5cd-4fbd-a528-16edee1fc8d0)
-
+![UserFlow](img/PALETA_DE_CORES.jpg)
 __________________________________________________
 
 
 ## Tipografia
 
-A fonte Poppins é uma ótima escolha para sites devido à sua excelente legibilidade em diferentes dispositivos e tamanhos de tela. Com um estilo moderno e limpo, ela transmite uma imagem profissional e contemporânea. Além disso, sua variedade de pesos e estilos permite criar hierarquias claras no design do texto. [Link para a tipografia no Google Fonts](https://fonts.google.com/specimen/Poppins)
+A fonte Arial é uma ótima escolha para sites devido à sua excelente legibilidade em diferentes dispositivos e tamanhos de tela. Ela transmite uma imagem profissional e contemporânea.
 
-![fonte](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-60tech/assets/123830292/a4157c78-1d0f-4c42-9476-76e28ed8854c)
+![UserFlow](img/FONTE.jpg)
+
+
+## Iconografia
+
+Os ícones do [Icos-Icons]([https://fonts.google.com/icons](https://icon-icons.com/pt/)) possui alta facilidade de iplementação trazendo um design inovador para o site, com bastante variedade de ícones.
+
+Ícones usados: 
+![UserFlow](img/ICONOGRAFIA.jpg)
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
 
