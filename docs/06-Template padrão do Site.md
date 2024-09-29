@@ -44,7 +44,7 @@ A fonte Arial é uma ótima escolha para sites devido à sua excelente legibilid
 
 ## Iconografia
 
-Os ícones do [Icos-Icons]([https://fonts.google.com/icons](https://icon-icons.com/pt/)) possui alta facilidade de iplementação trazendo um design inovador para o site, com bastante variedade de ícones.
+Os ícones do [Icos-Icons]([https://fonts.google.com/icons](https://icon-icons.com/pt/)) possui alta facilidade de implementação trazendo um design inovador para o site, com bastante variedade de estilos permite aplicação em diferentes projetos.
 
 Ícones usados: 
 ![UserFlow](img/ICONOGRAFIA.jpg)
