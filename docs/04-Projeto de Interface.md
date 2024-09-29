@@ -36,6 +36,10 @@ Tela home com pop-up de sair.
 
 ![UserFlow](img/HOMEPAGE_SAIR.jpg)
 
+### Cadastro
+Tela de Cadastro de novo usuário.
+
+![UserFlow](img/CADASTRO_USUARIO_CLIENTE.jpg)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
