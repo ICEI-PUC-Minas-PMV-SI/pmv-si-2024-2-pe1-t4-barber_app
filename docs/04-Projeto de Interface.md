@@ -36,27 +36,27 @@ Tela home com pop-up de sair.
 
 ![UserFlow](img/HOMEPAGE_SAIR.jpg)
 
-### Cadastro
+### Cadastro Usuário Cliente
 Tela de Cadastro de novo usuário.
 
 ![UserFlow](img/CADASTRO_USUARIO_CLIENTE.jpg)
 
-### Agendamento 
+### Acesso Cliente - Agendamento 
 Tela dedicada para o usuário realizar o agendamento. 
 
 ![UserFlow](img/CLIENTE_AGENDAR.jpg)
 
-### Pré-Agendamento 
+### Acesso Cliente - Pré-Agendamento 
 Nessa tela, o cliente revisará o agendamento feito antes de confirmar. 
 
 ![UserFlow](img/CLIENTE_PREAGENDAMENTO.jpg)
 
-### Notificação - Confirmação Agendamento
+### Acesso Cliente - Notificação - Confirmação Agendamento
 Será enviada uma notificação para o cliente, na qual deverá confirmar o agendamento. 
 
 ![UserFlow](img/CLIENTE_NOTIFICACAO_AGENDAMENTO.jpg)
 
-### Meus Agendamentos - Histórico
+### Acesso Cliente - Meus Agendamentos - Histórico
 O cliente tem a opção de verificar o histórico de serviços que consumiu na barbearia. 
 
 ![UserFlow](img/CLIENTE_MEUS_ATENDIMENTOS.jpg)
