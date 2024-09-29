@@ -41,6 +41,11 @@ Tela de Cadastro de novo usuário.
 
 ![UserFlow](img/CADASTRO_USUARIO_CLIENTE.jpg)
 
+### Agendamento 
+Tela dedicada para o usuário realizar o agendamento. 
+
+![UserFlow](img/CLIENTE_AGENDAR.jpg)
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
