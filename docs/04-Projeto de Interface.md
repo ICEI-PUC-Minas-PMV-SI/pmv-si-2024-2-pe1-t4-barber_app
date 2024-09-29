@@ -51,6 +51,17 @@ Nessa tela, o cliente revisará o agendamento feito antes de confirmar.
 
 ![UserFlow](img/CLIENTE_PREAGENDAMENTO.jpg)
 
+### Notificação - Confirmação Agendamento
+Será enviada uma notificação para o cliente, na qual deverá confirmar o agendamento. 
+
+![UserFlow](img/CLIENTE_NOTIFICACAO_AGENDAMENTO.jpg)
+
+### Meus Agendamentos - Histórico
+O cliente tem a opção de verificar o histórico de serviços que consumiu na barbearia. 
+
+![UserFlow](img/CLIENTE_MEUS_ATENDIMENTOS.jpg)
+
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
