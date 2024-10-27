@@ -27,8 +27,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| O cliente deve ser capaz de realizar o cadastro no sistema | Murilo | cadastro_cliente.html |
+|RF-002| O administrador da barbearia deve cadastrar os dados do estabelecimento | João | adm_unidade.html |
+|RF-003| O administrador deve cadastrar os barbeiros | Bruno | adm_barbeiro.html |
+|RF-004| O sistema deve autenticar o usuário de acordo com seu perfil. | Hugo | index.html |
+|RF-005| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente | Israel | cliente-agendar.html |
+|RF-006| O cliente deve ser capaz de agendar um atendimento | Israel | cliente-agendar.html |
+|RF-007| O sistema deve redirecionar cliente e barbeiro para telas diferentes | Hugo | index.html |
+|RF-008| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | Katiuscia | barbeiro_agenda.html |
+|RF-009| O Barbeiro deve ser capaz de finalizar um atendimento, para que seja possível iniciar o próximo atendimento | Katiuscia | barbeiro_agenda.html |
+|RF-010| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro e Administrador | Bruno/ Israel | adm_agenda_atendimento.html / cliente-historico.html  |
+|RF-011| O Barbeiro deve ser capaz de cancelar um agendamento ainda não confirmado | Katiuscia | barbeiro_agenda.html |
+|RF-012| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação | Israel | cliente_agendar.html |
+|RF-013| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não | Katiuscia | barbeiro_agenda.html |
+|RF-014| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente | João/ Murilo/ Israel | hist_atend.html / barbeiro_hist_atendimento. html / cliente-historico.html |
+|RF-015| Apurar os serviços realizados pelo barbeiro | Bruno | adm_agenda_atendimento.html |
+|RF-016| O administrador deve cadastrar os serviços | Katiuscia | adm_servico.html |
 
 ## Descrição das estruturas:
 
