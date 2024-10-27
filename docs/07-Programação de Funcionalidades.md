@@ -62,9 +62,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Id|Numero (Inteiro)|Identificador único da Barbeiro|1|
 |Status do Barbeiro|Texto|Se o Barbeiro esta ativo ou não|ativo|
 |Serviço|Texto|Serviços que o Barbeiro presta.|Corte de Cabelo, Corte Infantil, Barba c/ Navalha|
-|Parametros Agenda - dias da semana |Texto|Dias da semana que o Barbeiro presta os serviços|Segunda, Terça, Quarta, Quinta, Sexta|
-|Parametros Agenda - horário inicio |Texto|Horário que o Barbeiro inicia a prestação dos serviços | 08:00 |
-|Parametros Agenda - horário fim |Texto|Horário que o Barbeiro finaliza a prestação dos serviços | 09:00 |
+|Parâmetros Agenda - dias da semana |Texto|Dias da semana que o Barbeiro presta os serviços|Segunda, Terça, Quarta, Quinta, Sexta|
+|Parâmetros Agenda - horário inicio |Texto|Horário que o Barbeiro inicia a prestação dos serviços | 08:00 |
+|Parâmetros Agenda - horário fim |Texto|Horário que o Barbeiro finaliza a prestação dos serviços | 09:00 |
 
 ## Unidades
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
