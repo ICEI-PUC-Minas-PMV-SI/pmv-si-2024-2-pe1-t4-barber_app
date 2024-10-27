@@ -89,8 +89,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |Id|Numero (Inteiro)|Identificador único da Agenda|1|
 |ID Barbeiro|Numero (Inteiro)|Identificador único do Barbeiro|1|
 |ID CLIENTE|Numero (Inteiro)|Identificador único do Cliente|1|
-|DATA|DATE|dia do agendamento |01/10/2024|
-|HORARIO DE INICIO |TIME|horario inicio do agendamento|08:00|
-|HORARIO DE FIM|TIME|horario fim do agendamento|08:45|
+|DATA|DATE|Dia do agendamento |01/10/2024|
+|HORARIO DE INICIO |TIME|Horário inicio do agendamento|08:00|
+|HORARIO DE FIM|TIME|Horário fim do agendamento|08:45|
 |ID SERVIÇO|Numero (Inteiro)|Identificador único do serviço|1|
 |STATUS|TEXTO|Status do agendamento, se o horário da agenda esta Livre, Agendado, Confirnado|Agendado|
