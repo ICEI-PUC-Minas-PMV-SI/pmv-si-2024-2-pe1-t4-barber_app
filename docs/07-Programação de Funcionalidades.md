@@ -46,32 +46,44 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Usuários
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor    |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
 | Id | Numero (Inteiro) | Identificador único da usuario | 1 |
 | Nome | Texto | Nome do usuário | Barbeiro Administrador |
 |Email|Texto|E-mail do usuário|adm@adm.com.br|
 |Senha|Texto|Senha do usuário|adm@12345|
 |Telefone|Texto|Telefone do usuário|31971448208|
 |Tipo Usuário|Texto|Tipo de usuário|administrador|
+
+## Barbeiro
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 |Id|Numero (Inteiro)|Identificador único da Barbeiro|1|
 |Status do Barbeiro|Texto|Se o Barbeiro esta ativo ou não|ativo|
 |Serviço|Texto|Serviços que o Barbeiro presta.|"Corte de Cabelo, Corte Infantil, Barba c/ Navalha"|
 |Parametros Agenda|Texto|Dias e horários que o Barbeiro presta os serviços|
+
+## Unidades
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 |Id|Numero (Inteiro)|Identificador único da Unidade|1|
 |Nome|Texto|Nome do Unidade|Corte de Cabelo|
 |Endereço|Texto|Endereço da Unidade|
 |Telefone|Texto|Telefone da Unidade|
 |Email|Texto|Email da Unidade|
+
+## Serviços
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 |Id|Numero (Inteiro)|Identificador único do serviço|1|
 |Nome|Texto|Nome do Serviço|Corte de Cabelo|
 |Valor|Texto|Valor do Serviço|"R$ 45,00"|
 |Tempo|Time|Tempo Total para realizar o Serviço|00:50|
+
+## Agendamento
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 |Id|Numero (Inteiro)|Identificador único da Agenda|1|
 |ID Barbeiro|NUMERICO|Identificador único usuário Barbeiro|1|
 |ID CLIENTE|NUMERICO|Identificador único usuário Cliente|1|
