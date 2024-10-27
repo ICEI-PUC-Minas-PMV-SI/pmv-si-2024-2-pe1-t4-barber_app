@@ -1,0 +1,94 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Barbeiro Administrador",
+      "email": "adm@adm.com.br",
+      "senha": "12345",
+      "telefone": "31971448207",
+      "tipousuario": "administrador"
+    },
+    {
+      "id": "2",
+      "nome": "Barbeiro 01",
+      "email": "barbeiro@barbeiro.com.br",
+      "senha": "12345",
+      "telefone": "31971448208",
+      "tipousuario": "barbeiro"
+    },
+    {
+      "id": "e2b8",
+      "nome": "thor",
+      "email": "thor@gmail.com",
+      "senha": "12345",
+      "telefone": "(31)97144-8208",
+      "tipousuario": "barbeiro"
+    },
+    {
+      "id": "dbf0",
+      "nome": "bruno",
+      "email": "vermelhinho@colorado.com.br",
+      "senha": "ADDD12246",
+      "telefone": "(31)97144-8208",
+      "tipousuario": "barbeiro"
+    }
+  ],
+  "barbeiros": [
+    {
+      "id": "1",
+      "statusBarbeiro": "true",
+      "servico": [
+        "Corte de Cabelo",
+        "Corte Infantil",
+        "Barba c/ Navalha"
+      ],
+      "parametrosAgenda": {
+        "diasDisponiveis": [
+          "Segunda-feira",
+          "Terça-feira",
+          "Quarta-feira"
+        ],
+        "horarioInicial": "08:00",
+        "horarioFinal": "08:00"
+      }
+    },
+    {
+      "id": "2",
+      "statusBarbeiro": "true",
+      "servico": [
+        "Corte de Cabelo",
+        "Corte Infantil",
+        "Barba c/ Navalha"
+      ],
+      "parametrosAgenda": {
+        "diasDisponiveis": [
+          "Segunda-feira",
+          "Terça-feira",
+          "Quarta-feira"
+        ],
+        "horarioInicial": "08:00",
+        "horarioFinal": "08:00"
+      }
+    },
+    {
+      "id": "dc38",
+      "servico": [
+        "Corte Infantil",
+        "Barba Desenhada",
+        "Hidratação Cabelo"
+      ],
+      "tipousuario": "barbeiro",
+      "statusBarbeiro": "true",
+      "parametrosAgenda": {
+        "diasDisponiveis": [
+          "Segunda",
+          "Quarta",
+          "Quinta",
+          "Sexta"
+        ],
+        "horarioInicial": "12:00",
+        "horarioFinal": "14:00"
+      }
+    }
+  ]
+}

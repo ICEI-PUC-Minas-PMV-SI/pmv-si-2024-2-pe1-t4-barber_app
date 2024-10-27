@@ -1,0 +1,211 @@
+{"usuarios":[{
+  "id":1,
+  "nome":"Barbeiro Administrador",
+  "email":"adm@adm.com.br",
+  "senha":"12345",
+  "tipousuario":"administrador"
+},
+{
+  "id":2,
+  "nome":"Barbeiro 01",
+  "email":"barbeiro@barbeiro.com.br",
+  "senha":"12345",
+  "tipousuario":"barbeiro"  
+}
+
+],
+"barbeiros":[{
+  "id":1,
+  "nome":"Barbeiro Administrador",
+  "email":"adm@adm.com.br",
+  "tipousuario":"administrador",
+  "statusBarbeiro":"true",
+  "servico":["Corte de Cabelo", "Corte Infantil", "Barba c/ Navalha"],
+  "agenda":[{
+    "data":"01/10/2024",
+    "horarios":[{
+      "08:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "09:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "10:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "11:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "13:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "14:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "15:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "16:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "17:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "18:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "19:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "20:00:00":{
+        "cliente":"null",
+        "status":"null"
+      }
+     
+      
+
+    }]
+  }]
+
+},
+{
+  "id":2,
+  "nome":"Barbeiro 01",
+  "email":"barbeiro@barbeiro.com.br",
+  "tipousuario":"administrador",
+  "statusBarbeiro":"true",
+  "servico":["Corte de Cabelo", "Corte Infantil", "Barba c/ Navalha"],
+  "agenda":[{
+    "data":"01/10/2024",
+    "horarios":[{
+      "08:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "09:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "10:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "11:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "13:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "14:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "15:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "16:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "17:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "18:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "19:00:00":{
+        "cliente":"null",
+        "status":"null"
+      },
+      "20:00:00":{
+        "cliente":"null",
+        "status":"null"
+      }
+     
+      
+
+    }]
+  }]
+
+}
+]
+
+}
+
+
+
+
+
+function createItem() {
+    var requisicao = new XMLHttpRequest();
+    requisicao.open('POST', url, true);
+    requisicao.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    
+    var novoBarbeiro = {
+        name: "Novo Barbeiro",
+        email: "novo@barbeiro.com"
+    };
+    
+    requisicao.onload = function() {
+        if (requisicao.status == 201) {
+            alert('Barbeiro criado com sucesso!');
+            getdata(); // Atualiza a lista de barbeiros
+        }
+    };
+    
+    requisicao.send(JSON.stringify(novoBarbeiro));
+}
+
+// Função para atualizar um item
+function updateItem() {
+    var id = prompt("Informe o ID do barbeiro que deseja atualizar:");
+    var requisicao = new XMLHttpRequest();
+    requisicao.open('PUT', `${url}/${id}`, true);
+    requisicao.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    
+    var barbeiroAtualizado = {
+        name: "Barbeiro Atualizado",
+        email: "atualizado@barbeiro.com"
+    };
+    
+    requisicao.onload = function() {
+        if (requisicao.status == 200) {
+            alert('Barbeiro atualizado com sucesso!');
+            getdata(); // Atualiza a lista de barbeiros
+        }
+    };
+    
+    requisicao.send(JSON.stringify(barbeiroAtualizado));
+}
+
+// Função para deletar um item
+function deleteItem() {
+    var id = prompt("Informe o ID do barbeiro que deseja deletar:");
+    var requisicao = new XMLHttpRequest();
+    requisicao.open('DELETE', `${url}/${id}`, true);
+    
+    requisicao.onload = function() {
+        if (requisicao.status == 200) {
+            alert('Barbeiro deletado com sucesso!');
+            getdata(); // Atualiza a lista de barbeiros
+        }
+    };
+    
+    requisicao.send();
+}
