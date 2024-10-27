@@ -53,8 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor    |
 | Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil |
 | Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-
-| Id|Numero (Inteiro) | Identificador único da usuario | 1 |
+| Id | Numero (Inteiro) | Identificador único da usuario | 1 |
 | Nome | Texto | Nome do usuário | Barbeiro Administrador |
 |Email|Texto|E-mail do usuário|adm@adm.com.br|
 |Senha|Texto|Senha do usuário|adm@12345|
