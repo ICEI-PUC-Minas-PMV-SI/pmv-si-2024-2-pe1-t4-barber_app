@@ -78,17 +78,19 @@
   </header>
 
   <main>
-    <form>
     <div id="formulario-consulta">
       <h1>MEUS ATENDIMENTOS</h1>
-      <div>
-          Período: <br><input type="date" name="data-agenda" id=""><br>
-          a: <br><input type="date" name="data-agenda" id=""><br>
-
-          <input type="submit" value="Buscar">
-
-        </form>
-      </div>
+      <div class="formulario-consulta">
+        <form name="agenda_atendimentos" method="POST">
+            <label for="data">Período:</label>
+            <br>
+            <input type="date" id="data" name="data">
+            </br>
+            <label for="dataf">a:</label>
+            <br>
+            <input type="date" id="dataf" name="data">
+            </br>
+            <input type="submit" value="Buscar">
     </div>
     <div id="tabela-agenda-disponivel">
       <table>
