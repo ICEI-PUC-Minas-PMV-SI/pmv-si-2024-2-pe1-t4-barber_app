@@ -82,24 +82,26 @@
       <h1>AGENDAR</h1>
       <div class="formulario-consulta">
         <form name="agenda_atendimentos" method="POST">
-          Selecionar Barbeiro: <br> <input type="options" list="barbeiros-cad" name="barbeiros-cad" id=""><br>
-          <datalist id="barbeiros-cad">
-            <option value="Barbeiro 01">
-            <option value="Barbeiro 02">
-            <option value="Barbeiro 03">
-            <option value="Barbeiro 04">
-            <option value="Barbeiro 05">
-          </datalist>
-          Selecionar Serviço: <br> <input type="options" list="servicos-cad" name="servicos-cad" id=""><br>
-          <datalist id="servicos-cad">
-            <option value="Corte">
-            <option value="Barba">
-            <option value="Corte + Barba">
-          </datalist>
-          <!-- <input type="submit"> -->
-
-          Data: <br><input type="date" name="data-agenda" id=""><br>
-
+          <label for="barber">Selecione o Barbeiro</label>
+          <br> <select name="barber">
+            <option value="" selected disabled>Selecione uma opção</option>
+            <option value="barbeiro01">Barbeiro 1</option>
+            <option value="barbeiro02">Barbeiro 2</option>
+            <option value="barbeiro03">Barbeiro 3</option>
+            <option value="barbeiro04">Barbeiro 4</option>
+            <option value="barbeiro05">Barbeiro 5</option>
+            </select> </br>
+            <label for="services">Selecione o Serviço</label>
+            <br> <select name="services">
+              <option value="" selected disabled>Selecione uma opção</option>
+              <option value="corte">Corte</option>
+              <option value="barba">Barba</option>
+              <option value="corteebarba">Corte + Barba</option>
+              </select> </br>
+            <label for="data">Selecione a data:</label>
+            <br>
+            <input type="date" id="data" name="data">
+            </br>
           <input type="submit" value="Buscar">
 
         </form>
