@@ -51,8 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 2**
  :--------------: | ------------
-**Procedimento**  | 1) Após efetuar login clicar no botão "Cadastrar Novos" na lista de Barbeiros Cadastrados <br> 2) Preencha todos os campos do formulário <br> 
-3) Clique no botão "Salvar" <br>
+**Procedimento**  | 1) Após efetuar login clicar no botão "Cadastrar Novos" na lista de Barbeiros Cadastrados <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Salvar".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Barbeiro e agenda cadastrados
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -60,8 +59,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Editar Usuário Barbeiro**
  :--------------: | ------------
-**Procedimento**  | 1) Na lista de Barbeiros Cadastrados clicar no Botão "Editar" <br> 2) Dados do cadastro serão carregados no formulário podendo ser alterados <br> 
-3) Clique no botão "Salvar" <br>
+**Procedimento**  | 1) Na lista de Barbeiros Cadastrados clicar no Botão "Editar" <br> 2) Dados do cadastro serão carregados no formulário podendo ser alterados <br> 3) Clique no botão "Salvar".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Dados do Barbeiro agenda atendimento Editados
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
