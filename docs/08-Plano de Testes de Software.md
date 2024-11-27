@@ -45,12 +45,27 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - HOMEPAGE USABILIDDE, LOGIN, LOGOUT *                                         |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação permite com que os usuários criem uma conta e gerenciem seu cadastro|
+|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1ejaZu4LSPQDPo03S5y8NaR0SpVRBCBLJ?hl=pt-br | 
+
+|*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação permite com que o usuario da administração registre novos serviços da barbearia e edite |
+|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1HzX4D1Dx_9xXFrOXJLEkJ4Plg0BfD995?hl=pt-br | 
+
+|*Caso de Teste*                                 |*CT02 - Criar conta parte 1*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Criar conta parte 1*                                        |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+
+|*Caso de Teste*                                 |*CT02 - Criar conta parte 1*                                        |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
