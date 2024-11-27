@@ -41,6 +41,34 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Requisitos associados** | RF-003
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuar login clicar no botão "Cadastrar Novos" na lista de Barbeiros Cadastrados <br> 2) Preencha todos os campos do formulário <br> 
+3) Clique no botão "Salvar" <br>
+**Requisitos associados** | RF-003
+**Resultado esperado** | Barbeiro e agenda cadastrados
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Editar Usuário Barbeiro**
+ :--------------: | ------------
+**Procedimento**  | 1) Na lista de Barbeiros Cadastrados clicar no Botão "Editar" <br> 2) Dados do cadastro serão carregados no formulário podendo ser alterados <br> 
+3) Clique no botão "Salvar" <br>
+**Requisitos associados** | RF-003
+**Resultado esperado** | Dados do Barbeiro agenda atendimento Editados
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
