@@ -43,10 +43,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 2**
