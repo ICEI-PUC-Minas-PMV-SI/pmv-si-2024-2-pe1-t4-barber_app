@@ -41,6 +41,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT02 - Primeiro Acesso HomePage parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br>2) Navegue pela navbar, onde contém todas as sections com serviços e informações da barbearia<br>3) Clique no canto superior direito para preencher os dados no formulario e efetuar login<br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário conectado
+**Dados de entrada** | Preenchimento de dados cadastrados no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT02 - Primeiro Acesso HomePage parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1)  Clique no canto superior direito para preencher os dados no formulario e efetuar login<br>2) Clique no canto superior direito, após o login e efetue o logout<br> 
+**Requisitos associados** | RF-001
+**Resultado esperado** | Usuário desconectado
+**Dados de entrada** | Pressionar o botão sair no modal
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
@@ -73,7 +89,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT01 - HOMEPAGE USABILIDADE, LOGIN, LOGOUT *                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação permite com que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado | RF-001 - O acesso a Home Page permite o usuario visualizar todos os produtos e serviços prestados pela barbearia |
 |Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1ejaZu4LSPQDPo03S5y8NaR0SpVRBCBLJ?hl=pt-br | 
 
 |*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
