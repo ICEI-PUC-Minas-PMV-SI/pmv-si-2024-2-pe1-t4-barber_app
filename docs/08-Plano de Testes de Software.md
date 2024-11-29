@@ -112,6 +112,15 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*CT01 - Criar cadastro Barbeiro*                                         |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação deve permitir cadastrar usuários Barbeiro e gerenciar seu cadastro e agenda de atendimento|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1FgbsHgho3eAxNwQjHGMztOIosiVuFDqJ/view?usp=sharing| 
+
+|*Caso de Teste*                                 |*CT02 - Acompanhamento da agenda de atendimento dos Barbeiros*           |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
 
 ## Avaliação dos Testes de Software
 
