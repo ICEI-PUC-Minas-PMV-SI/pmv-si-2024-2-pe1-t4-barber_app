@@ -81,7 +81,45 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Acesso Usuário Barbeiro**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta barbeiro <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Requisitos associados** | RF-008
+**Resultado esperado** | Prosseguir para a agenda do barbeiro
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Efetuar Bloqueio de Agenda do Barbeiro**
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Bloquear Atendimento"na agenda do barbeiro.  
+**Requisitos associados** | RF-008
+**Resultado esperado** |Bloquear horários livres na agenda do barbeiro. 
+**Dados de entrada** | Inserção e seleção de dados válidos
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Efetuar Cancelamento e Bloqueio de Agendamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Cancelar Bloqueio/Agendamento"na agenda do barbeiro.  
+**Requisitos associados** | RF-011
+**Resultado esperado** |Cancelar horarios bloqueados pelo barbeiro. 
+**Dados de entrada** | Inserção e seleção de dados válidos
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Barbeiro Incluir Agendamento**
+  :--------------: | ------------
+**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Incluir Atendimento"na agenda do barbeiro.  
+**Requisitos associados** | RF-013
+**Resultado esperado** | Incluir atendimento de horário na agenda do barbeiro. 
+**Dados de entrada** | Inserção e seleção de dados válidos
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Barbeiro Concluir Atendimento**
+  :--------------: | ------------
+**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Concluir Atendimento"na agenda do barbeiro.  
+**Requisitos associados** | RF-009
+**Resultado esperado** | Concluir atendimento de horário na agenda do barbeiro. 
+**Dados de entrada** | Inserção e seleção de dados válidos
+**Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
 
