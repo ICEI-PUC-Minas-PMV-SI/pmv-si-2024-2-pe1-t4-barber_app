@@ -404,4 +404,14 @@ Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrep�
 
 Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
 
+## Avaliação dos Testes de Usabilidade nosso  projeto: 
+
+Com base nos resultados obtidos, foi possível verificar que a aplicação apresentou excelente desempenho em termos de taxa de sucesso, uma vez que todos os objetivos propostos foram concluídos com sucesso para todos os usuários. Além disso, a satisfação subjetiva dos participantes foi muito alta, com médias variando entre 4,9 e 5 em uma escala de 1 a 5, o que demonstra que a aplicação atendeu bem às expectativas dos usuários.
+
+O sistema foi elogiado pela interface intuitiva e pela organização das funcionalidades, como o cadastro de usuários, agendamento de horários e gestão de agendas. A presença de alertas de confirmação em todas as operações realizadas foi destacada pelos usuários como um diferencial positivo, aumentando a confiança no uso do sistema e proporcionando uma experiência mais segura.
+
+No que diz respeito ao tempo para conclusão das tarefas, observe-se uma discrepância significativa entre os usuários e o especialista. Enquanto o especialista concluiu as tarefas de forma mais ágil, os usuários, ainda que bem-sucedidos, levaram um tempo maior, o que é esperado devido ao maior conhecimento do especialista sobre a interface e as funcionalidades. Apesar disso, os tempos médios registrados pelos usuários estão dentro de uma margem considerada eficiente para o alvo público.
+
+Em resumo, os resultados dos testes de usabilidade indicam que a aplicação atende aos requisitos de funcionalidade e facilidade de uso esperados, proporcionando uma experiência segura. A avaliação positiva reforça que o sistema está bem alinhado às necessidades dos usuários, demonstrando um desempenho consistente e confiável em todos os cenários testados.
+
 
