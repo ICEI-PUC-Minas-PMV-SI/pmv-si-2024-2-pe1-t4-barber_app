@@ -124,6 +124,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção e seleção de dados válidos
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - O Administrador pode acompanhar a agenda dos barbeiros**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Requisitos associados** | RF-010
+**Resultado esperado** | Prosseguir para a parte 2
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT004 - O Administrador pode acompanhar a agenda dos barbeiros parte 02**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuar login clicar em "Atendimentos" na NavBar <br> 2) Preencha todos os campos do formulário <br> 
+3) Clique no botão "Salvar" <br>
+**Requisitos associados** | RF-010
+**Resultado esperado** | Agenda de atendimento 
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - Efetuar Cancelamento de Bloqueio de Agendamento**
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Cancelar Bloqueio/Agendamento"na agenda do barbeiro.  
