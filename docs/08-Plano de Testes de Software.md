@@ -97,7 +97,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção e seleção de dados válidos
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT00 - Efetuar Cancelamento e Bloqueio de Agendamento**
+**Caso de Teste** | **CT00 - Efetuar Cancelamento de Bloqueio de Agendamento**
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Cancelar Bloqueio/Agendamento"na agenda do barbeiro.  
 **Requisitos associados** | RF-011
