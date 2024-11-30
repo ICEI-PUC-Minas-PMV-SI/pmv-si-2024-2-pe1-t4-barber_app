@@ -160,6 +160,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
 
+|*Caso de Teste*                                 |*CT01 - Gerênciamento de Agenda pelo Barbeiro*                                         |
+|---|---|
+|Requisito Associado | RF-008, RF-009, RF-011 e RF-013 - A aplicação deve permitir que o barbeiro realize o bloqueio de horários livres, incluir o agendamento pelo barbeiro, o cancelamento do bloqueio/agendamento barbeiro, bem como concluir os atendimentos realizados|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/12o0H4nqsSsQ3qr-ze1r6_ma7KE4bD9U8/view?usp=sharing| 
+
+
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
