@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+.modal-dialog{
+    font-size: 1.3rem;
+}
+
+
+.navbar-toggler{
+    background-color: #c79655 ;
+
+}
+
+.navmeusatendimento{
+    color: #c79655 !important;
+}
+
+main{
+    background-color: #fcd1a7; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    /* width: 100%;
+    height: 100%; */
+    
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: #7A4D2C;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+form{
+    margin: 15px;
+    color: #7A4D2C;
+    font-weight: bold;
+   
+}
+
+input{
+    margin: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    border: none;
+    
+}
+
+input[type="submit"]{
+    background-color: #c79655;
+    color: #7A4D2C;
+    padding: 5px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table{
+    margin: 40px;
+    /* padding: 10px; */
+    background-color: white;
+}
+
+
+
+.formulario-consulta,#tabela-agenda-atendimento{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+button{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;
+  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 5px;
+    margin: 15px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: #7A4D2C;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+}
+#btn-hist-atendimento{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+
+}
+
+/* modal sair */
+
+.modal-dialog{
+    border: none;
+
+}
+
+.modal-header{
+
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: end;
+
+}
+
+.modal-body a{
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+}
+.modal-footer {
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+}
+
+a img{
+    margin: 5px;
+    padding: 2px;
+}
+
+.modal-posicao{
+    position: fixed;
+    top: 140px;
+    right: 50px;
+    width: 100%;
+    border: none;
+    max-width: 200px;
+    max-height: 150px;
+
+}
+
+
+.modal-content{
+    background-color:#fcd1a7;
+
+}
+
+button[type="button"]{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    font-weight: bold
+}
+
+h5{
+    text-align: center;
+    justify-content: center;
+    color: #7A4D2C;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:1000px){
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;    
+    }
+    
+    .modal-dialog{
+        font-size: 1.2rem;
+    }
+    
+
+}

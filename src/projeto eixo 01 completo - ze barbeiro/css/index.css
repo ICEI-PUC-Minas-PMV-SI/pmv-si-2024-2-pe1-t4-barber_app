@@ -1,0 +1,248 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;  
+
+}
+
+
+.navbar-toggler{
+  background-color: #c79655 ;
+
+}
+
+.navbaribeiros{
+  color: #c79655 !important;
+}
+
+.navbar-nav{
+  font-size: 1.3rem;
+}
+
+.card{
+    color: aliceblue;
+    width:350px ;
+    background-color: #301F18;
+    margin-top: 5%;
+    max-height: 300px;
+    height: 400px;
+    border-radius: 15px; /* Valor que determina a curvatura das bordas */
+    padding: 8px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+.cardi:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.rounded-label {
+  border-radius: 20px; /* Ajuste o valor conforme necessário */
+  padding: 3px; /* Adicione um pouco de preenchimento para melhor aparência */
+  color:black; 
+}
+.FEEDBACKS{
+    margin-left: 5%; 
+    margin-right: 5%;
+    height: 500px; 
+    color: aliceblue
+    
+}
+.card-feedbacks {
+    width: 500px; /* Ajuste para o tamanho do card */
+    padding: 20px;
+}
+
+.d-flex.align-items-center img {
+    margin-right: 20px; /* Espaçamento adequado entre a imagem e o texto */
+}
+.card-text-feedbacks{
+    margin-top: 50px;
+}
+
+
+.PRODUTOS{
+    margin-left: 5%; 
+    margin-right: 5%;
+    height: 700%; 
+    color: aliceblue
+}
+/* Estilo para esconder o modal inicialmente */
+.modal-custom {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.722);
+}
+.modal-content-custom {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    right: 0; /* Fixa o modal à direita */
+    margin-right: 20px; /* Espaçamento da borda direita */
+    height: 500px;
+}
+/* Exibe o modal quando o alvo é acionado */
+#popupModal:target {
+    display: block;
+}
+
+/* .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  
+} */
+
+/* .navbar-toggler {
+  border: 2px solid rgba(255, 255, 255, 1); 
+} */
+
+#cadastroModalCliente button{
+  background-color: #c79655 ;
+  text-align: center;
+  justify-content: center;
+  border-radius: 25px;  
+  align-content: center;
+  color: #7A4D2C;
+  padding: 5px;
+  margin: 15px;
+  border: none;
+  font-weight: bold;
+  
+}
+
+#cadastroModalCliente .modal-dialog,
+#cadastroModalCliente .modal-header,
+#cadastroModalCliente .modal-title,
+#cadastroModalCliente .modal-body,
+#cadastroModalCliente .modal-footer {
+  background-color: #fcd1a7;
+  /* background-color: #ffffff; */
+  border-color: #ffffff;
+  font-weight: bold;
+  color: #7A4D2C;
+}
+
+#cadastre-se {
+  text-decoration: underline;
+}
+
+
+/* Imagens menores em telas pequenas */
+@media (max-width: 768px) {
+    .tamanhotextosection1{
+      font-size: small;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+  }
+  }
+  
+  /* Ajuste para tablets */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .card img {
+      width: 75px;
+      height: 75px;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+    }
+   
+  }
+/* Exibir 1 card por linha em celulares */
+@media (max-width: 576px) {
+    .row-cols-1 {
+      flex-direction: column;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+    }
+  }
+  
+  /* Exibir 2 cards por linha em tablets */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .row-cols-md-3 {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+    }
+    
+  }
+/* Ajuste no tamanho da imagem de fundo para telas menores */
+@media (max-width: 768px) {
+    #header {
+      background-size: contain;
+      height: auto;
+      padding: 20px;
+    }
+  
+    #header h1 {
+      font-size: 24px;
+    } 
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+    }
+  }
+/* Reduzir o tamanho dos textos e botões em celulares */
+@media (max-width: 576px) {
+    h1, h5 {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+      padding: 10px;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+    }
+  
+  }
+/* Ajustar o carrossel em telas menores */
+@media (max-width: 576px) {
+    .carousel-item img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .tamanhotextosection1{
+      font-size: 80%;
+      width: 90%;
+    }
+    .FEEDBACKS{
+      margin-bottom:20% ;
+      
+  }
+  #nossaHistoria, #sobrenos, #feedbacks{
+    width: auto !important;
+    height: auto !important;
+  }
+  #feedbacks .card-body{
+    width: auto;
+  }
+  .feedbacks-card{
+    width: auto !important;
+  }
+  
+}

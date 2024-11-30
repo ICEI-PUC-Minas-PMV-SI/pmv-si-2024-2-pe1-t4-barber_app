@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+.modal-dialog{
+    font-size: 1.0rem;
+}
+
+.navbar-toggler {
+    background-color: #C79655;
+
+
+}
+
+.navservicos{
+    color: #c79655 !important;
+}
+
+/* modal sair */
+
+.modal-dialog{
+    border: none;
+
+}
+
+.modal-header{
+
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: end;
+
+}
+
+.modal-body a{
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+}
+.modal-footer {
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+}
+
+a img{
+    margin: 5px;
+    padding: 2px;
+}
+
+.modal-posicao{
+    position: fixed;
+    top: 140px;
+    right: 50px;
+    width: 100%;
+    border: none;
+    max-width: 200px;
+    max-height: 150px;
+
+}
+main{   
+    background-color: #fcd1a7;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+h1{ 
+    justify-content: center; 
+    text-align: center;
+    color: #7a4d2c;
+    font-weight: bold;
+margin-top: 0px;    
+}
+#servicos-cadastrados div{
+
+   display: inline-flex;
+   width: 600px;
+   justify-content: center;
+}
+
+#servicos-cadastrados{  
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+
+}
+#servicos-cadastrados span{ 
+    width: 40%;
+    
+}
+.servicos-cadastrados{
+    background-color: #C79655 ; 
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+   width: auto;
+}
+#servicos-cadastrados p{    
+    /*display: inline-block;*/
+    background: white;
+    align-items: center;
+    align-content: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    color: #7a4d2c;
+    width: 50%  ;
+    text-align: center;
+}
+
+
+
+#exampleModalLabel{ 
+    align-content: center;
+}
+
+.servicos-estrutura{
+    display: inline-block;
+}
+
+.botao-cad-servico{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 25px !important;
+    background-color: #C79655;
+    color:#7a4d2c;
+    border: none;
+    margin: 15px;
+}
+.modal-dialog{
+    border-radius: 5px;
+}
+
+.modal-dialog, .modal-header, .modal-title, .modal-body, .modal-footer{
+    background-color: #fcd1a7;
+    border-color: #fcd1a7;
+  
+    
+}
+
+
+  
+tr .btn-editar-servico{
+    background-color:  #fcd1a7 !important;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+tr .btn-editar-barbeiro{
+    background-color:  #fcd1a7 !important;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.selected {
+    background-color: #f0f8ff; /* Cor para indicar seleção */
+}
+
+
+.modal-content{
+    background-color:#fcd1a7;
+
+}
+
+.modal-footer button[type="button"]{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    font-weight: bold
+}
+
+.modal-footer button[type="button"]{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    font-weight: bold
+}
+
+h5{
+    text-align: center;
+    justify-content: center;
+    color: #7A4D2C;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.table{
+    margin: 40px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+#servicos-cadastrados{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+} 
+.modal-dialog, .modal-header, .modal-title, .modal-body, .modal-footer{
+    background-color: #fcd1a7;
+    /* background-color: #ffffff; */
+    border-color: #ffffff;
+    font-weight: bold;
+    color: #7A4D2C;
+   
+    
+}
+
+@media screen and (max-width:1000px){
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;    
+    }
+    
+    .modal-dialog{
+        font-size: 1.0rem;
+    }
+    
+    #horarios-disponiveis, #editar-horarios-disponiveis{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:411px){
+
+    .table tr > th> .editar{
+    display: none;}
+    
+    .table tr > td >button {
+        display: none;}
+
+        .table{
+            margin: 15px;
+            padding: 10px;
+            background-color: white;
+        }
+            
+
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zé Barbeiro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script> -->
+  <script src="js/index.js" defer></script>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- jQuery Masked Input Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
+  <!-- Arquivo JS personalizado -->
+  <script>
+    $(document).ready(function () {
+      // Função para aplicar máscaras
+      $('.mascara-cpf').mask('999.999.999-99');
+      $('.mascara-cel').mask('(99)99999-9999');
+      $('#telefone').mask('(99)99999-9999');
+      $('.mascara-tel').mask('(99)9999-9999');
+      $('.mascara-ip').mask('999.99.999.99');
+      $('.mascara-data-mes-ano').mask('99/9999');
+      $('.mascara-data').mask('99/99/9999', { placeholder: "dd/mm/YYYY" });
+      $('.mascara-data2').mask('99/9999', { placeholder: "mm/YYYY" });
+      $('.mascara-cep').mask('99999-999');
+    });
+  </script>
+  <!-- JavaScript do Bootstrap 5 -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <link rel="icon" href="img/Logo Zé Barbeiro 2.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header id="header" class="p-4 container-fluid  text-light justify-content-between"
+    style="background-image: url('img/Barbearia-capa1.jpg'); background-size: cover; background-position: center;">
+
+    <section class="row">
+      <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html"><img id="logotipo" src="img/Logo Zé Barbeiro 2.png "
+              style="max-height: 100px; max-width: 100px" alt=""></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-between">
+              <a class="nav-link text-light" href="index.html#sobrenos">SOBRE NÓS</a>
+              <a class="nav-link text-light" href="index.html#nossosservicos">SERVIÇOS</a>
+              <a class="nav-link text-light" href="index.html#feedbacks">FEEDBACKS</a>
+              <a class="nav-link text-light" href="index.html#produtos">PRODUTOS</a>
+              <a class="nav-link text-light" href="index.html#contatos">CONTATO</a>
+
+            </div>
+
+            <!--botao de entrar-->
+            <a class="btn" href="#popupModal" role="button" style="background-color:#c79655 ;"><img
+                src="img/ICONE USUARIO.png" style="max-height: 70px; max-width: 20px ;" alt=""></a>
+
+            <!-- Modal estático que será exibido -->
+            <div id="popupModal" class="modal-custom">
+              <div class="modal-content-custom rounded-4" style="background-color:#FCD1A7;">
+
+                <!-- Botao fechar Modal estático  -->
+                <a href="#" class="close-btn" style="position: absolute; top: 10px; right: 15px; text-decoration: none; color: black; 
+              font-size: 20px;">&times;
+                </a>
+                <h3 style="color: #7A4D2C; margin-top:30px; text-align:center; "><strong>ACESSO DO USUÁRIO</strong></h3>
+                <form class="px-4 py-5">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label  " style="color: #7A4D2C;">Usuário</label>
+                    <input type="email" class="form-control rounded-label" id="exampleDropdownFormEmail1"
+                      placeholder="email@exemplo.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label " style="color: #7A4D2C;">Senha</label>
+                    <input type="password" class="form-control rounded-label" id="exampleDropdownFormPassword1"
+                      placeholder="Digite a senha">
+                  </div>
+                  <div class="mb-3">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck" style="color: #7A4D2C;">
+                        Lembrar-me
+                      </label>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <!-- Botão para logar -->
+                    <button type="button" id="efetuar-login" class="btn "
+                      style="color:dark; background-color:#C79655; border-radius: 15px; padding:8px; padding-left:20px;  padding-right:20px">
+                      <strong>Entrar</strong>
+                    </button>
+                    <!-- Link para fechar o modal -->
+                    <!-- <a href="#" class="btn btn-secondary mt-1">Fechar</a>-->
+                  </div>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" style="text-align:center ;color: #7A4D2C;">Não tem uma conta?</a>
+                <a id="cadastre-se"class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#cadastroModalCliente"
+                  style="text-align:center ;color: #7A4D2C;">Cadastre-se </a>
+
+
+
+              </div>
+            </div>
+
+
+      </nav>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-1 my-1"
+        style="border-top: 2px solid #c79655;"></div>
+
+      </div>
+    </section>
+
+  </header>
+
+
+  <div class="main" style="background-image: url('img/Barbearia-capa1.jpg');">
+    <main style="margin-left: 5%; margin-right: 5%; height: max-content; ">
+
+      <section id="sobrenos" class="quemsomos mb-5" style="height: 500px;">
+
+        <div id="nossaHistoria"style="text-align: left; width:45% ; height: 400px; color: aliceblue; ">
+
+          <h1 class="text-start">Conheça A História<br> Da Nossa Barbearia</h1>
+
+          <!--responsividade texto-->
+          <p class="tamanhotextosection1">
+            A barbearia foi fundada há mais de quatro décadas por um barbeiro apaixonado pela arte de cuidar dos
+            cabelos e barbas. Ao longo dos anos, o salão cresceu e evoluiu, passando de geração em geração, mas sem
+            perder suas raízes.
+            Hoje, a barbearia é um ponto de referência para homens que buscam mais do que apenas um corte: eles vêm em
+            busca de estilo, tradição e um atendimento personalizado.
+            O espaço combina técnicas clássicas com as últimas tendências, garantindo
+            que cada cliente saia não só satisfeito, mas com a confiança renovada.
+          </p>
+        </div>
+
+      </section>
+
+      <section id="nossosservicos" class="nossosservicos mb-5" style="color:white;">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <h1 class="text-start me-3">NOSSOS SERVIÇOS</h1>
+            <div class="flex-grow-1" style="border-top: 2px solid #c79655;"></div>
+          </div>
+          <p> Conheça nossos serviços</p>
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <img src="img/tesoura2.jpeg" class="card-img-top img-fluid me-3" alt="..."
+                      style="width: 100px; height: 100px;">
+                    <h5 class="fs-2 m-0">CORTES DE CABELO</h5>
+                  </div>
+                  <br>
+                  <p class="card-text">Corte de Cabelo: R$ 45,00</p>
+                  <p class="card-text">Corte Infantil: R$ 25,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <img src="img/navalha.jpeg" class="card-img-top img-fluid me-3 " alt="..."
+                      style="width: 100px; height: 100px;">
+                    <h5 class="fs-2 m-0">BARBA NA NAVALHA</h5>
+                  </div>
+                  <br>
+                  <p class="card-text">Barba Com Navalha: R$ 65,00</p>
+                  <p class="card-text">Barba Desenhada: R$ 80,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <img src="img/shampoo.jpeg" class="card-img-top img-fluid me-3 " alt="..."
+                      style="width: 100px; height: 100px;">
+                    <h5 class="fs-2 m-0">HIDRATAÇÃO</h5>
+                  </div>
+                  <br>
+                  <p class="card-text">Hidratação Cabelo: R$ 72,99</p>
+                  <p class="card-text">Hidratação Barba: R$ 85,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="feedbacks" class="FEEDBACKS" style="margin-top: 100px;">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <div class="flex-grow-1" style="border-top: 2px solid #c79655;"></div>
+            <h1 class="text-start me-3" style="margin-left: 20px;">FEEDBACKS</h1>
+          </div>
+          <div class="container d-flex justify-content-center">
+            <div class="row row-cols-1 row-cols-lg-2 g-4">
+              <div class="col feedbacks-card">
+                <div class="card card-feedbacks h-100">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img src="img/joao.jpeg" class="card-img-top img-fluid me-3 " alt="..."
+                        style="width: 100px; height: 100px;">
+                      <div>
+                        <h5 class="card-title mb-0">Joao Pedro</h5>
+                        <p class="card-text mt-2">A barbearia oferece atendimento de qualidade e cortes precisos em um
+                          ambiente acolhedor.<br>Recomendo.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-feedbacks h-100">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center">
+                      <img src="img/murilo.jpeg" class="card-img-top img-fluid me-3 " alt="..."
+                        style="width: 100px; height: 100px;">
+                      <div>
+                        <h5 class="card-title mb-0">Murilo Marques</h5>
+                        <p class="card-text mt-2">Consegui cortar meu cabelo muito rápido e com qualidade.<br>Ambiente
+                          agradável e barbeiros atenciosos e legais.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <section id="produtos" class="PRODUTOS container my-5 ">
+
+        <div class="d-flex align-items-center">
+          <div class="flex-grow-1" style="border-top: 2px solid #c79655;"></div>
+          <h1 class="text-start me-3" style=" margin-left: 20px;">PRODUTOS</h1>
+          <div class="flex-grow-1" style="border-top: 2px solid #c79655;"></div>
+        </div>
+        <p> Conheça nossos produtos</p>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/bannerprodutos.jpg " class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color:  #04f10f;"></h5>
+                <p style="color:  #04f10f;"></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/bannerprodutos.jpg " class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color:  #04f10f;"></h5>
+                <p style="color:  #04f10f;"></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/bannerprodutos.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 style="color:  #04f10f;"></h5>
+                <p style="color:  #04f10f;"></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+
+
+
+
+      </section>
+     
+
+      <div class="modal fade fs-6" id="cadastroModalCliente" tabindex="-1" aria-labelledby="cadastroModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg rounded-pill">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center w-100" id="cadastroModalLabel">CADASTRE-SE</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form id="form-cadastro">
+                <!-- Seção 1: Formulário de Cadastro -->
+                <div class="mb-3">
+                  <h5 class="text-center">Dados do Usuário</h5>
+                  <div class="row ">
+                    <div class="col-md-6">
+                      <label for="nome" class="form-label">Nome: </label>
+                      <input type="text" class="form-control" id="nome" name="nome" required>
+
+                    </div>
+                    <div class="col-md-6">
+                      <label for="email" class="form-label">E-mail: </label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class=" col-md-6 mt-3">
+                      <label for="senha" class="form-label">Senha: </label>
+                      <input type="password" class="form-control" id="senha" name="senha" required>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                      <label for="confirmarEmail" class="form-label">Confirmar E-mail: </label>
+                      <input type="email" class="form-control" id="confirmarEmail" name="confirmarEmail" required>
+                    </div>
+
+                  </div>
+                  <div class="row mt-3 ">
+
+                    <div class="col-md-6">
+                      <label for="confirmarSenha" class="form-label">Confirmar senha: </label>
+                      <input type="password" class="form-control" id="confirmarSenha" name="confirmarSenha">
+                    </div>
+
+                    <div class="col-md-6">
+
+                      <!-- data-mask="(00) 00000-0000" -->
+                      <label for="telefone" class="form-label">Telefone: </label>
+                      <input type="text" class="form-control" id="telefone" name="telefone" required>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                      <label for="dataNascimento" class="form-label">Data Nascimento:</label>
+                      <input type="date" class="form-control" id="dataNascimento" required>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+              </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn-popup-" data-bs-dismiss="modal">Cancelar</button>
+              <button id="salvar-cliente" type="button" class="btn-popup-">Salvar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+  </div>
+
+
+  <div class="container-fluid bg-dark text-light justify-content-between text-center">
+    <footer class="py-5">
+
+      <div class="row d-flex justify-content-between">
+        <div class="col col-md-4 mb-3 ">
+          <h5>ENDEREÇO</h5>
+          <P>Av. Aggeo Pio Sobrinho, Buritis, 577, Belo-Horizonte-MG</P>
+        </div>
+
+        <div id="contatos" class="col col-md-4 mb-3 ">
+          <h5>CONTATO</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">barberapp@gmail.com (31)
+                91234-5678</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">contato.barberapp@gmail.com (31)
+                98765-4321</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col col-md-4 mb-3 ">
+          <h5>REDES SOCIAIS</h5>
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-light"><img src="img/INSTAGRAN.png"
+                  style="max-height: 70px; max-width: 20px" alt=""> @agenda_barber</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><img src="img/FACEBOOK.png"
+                  style="max-height: 70px; max-width: 15px" alt=""> @agenda_barber</a></li>
+            
+
+          </ul>
+        </div>
+
+
+      </div>
+
+
+      <div class="container-fluid flex-column flex-sm-row justify-content-between py-4 my-4 text-center"
+        style="border-top: 2px solid #c79655;">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

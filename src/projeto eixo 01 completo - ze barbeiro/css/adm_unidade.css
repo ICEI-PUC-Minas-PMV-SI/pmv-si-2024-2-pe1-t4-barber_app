@@ -1,0 +1,247 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;    
+}
+
+
+.navbar-toggler{
+    background-color: #c79655 ;
+
+}
+
+main{
+    background-color: #fcd1a7; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    /* width: 100%;
+    height: 100%; */
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    
+    color: #7A4D2C;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+main #btn-cad-barbeiro{
+    
+    text-align: center;
+}
+
+button{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #000000;
+    padding: 5px;
+    margin: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+#cancelar-salvar-unidade, #cancelar-edit-salvar-unidade{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #000000;
+    padding: 5px;
+    margin: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+tr .btn-editar-Unidade {
+    background-color:  #fcd1a7 !important;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+#cadastroModalLabel{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.modal-dialog, .modal-header, .modal-title, .modal-body, .modal-footer{
+    background-color: #fcd1a7;
+    border-color: #fcd1a7;
+    
+}
+
+
+/* modal sair */
+
+.modal-dialog{
+    border: none;
+
+}
+
+.modal-header{
+
+    display: flex;
+    text-align: start;
+    align-items: start;
+    justify-content: end;
+}
+
+.modal-body a{
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+}
+nav .modal-footer {
+    display: block;
+    text-align: start;
+    align-items: start;
+    justify-content: end;
+}
+
+a img{
+    margin: 5px;
+    padding: 2px;
+}
+
+.modal-posicao{
+    position: fixed;
+    top: 140px;
+    right: 50px;
+    width: 100%;
+    border: none;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.admuni {
+    color: #C79655 !important;
+}
+
+.table{
+    margin: 40px;
+    /* padding: 10px; */
+    background-color: white;
+}
+
+tr .btn-editar-barbeiro{
+    background-color:  #fcd1a7 !important;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-left: 5px;
+    margin: 0px;
+    border: none;
+    color: black;
+}
+
+#unidades-cadastradas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.modal-content{
+    background-color:#fcd1a7;
+
+}
+
+.modal-footer button[type="button"]{
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    font-weight: bold
+}
+
+h5{
+    text-align: center;
+    justify-content: center;
+    color: #7A4D2C;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.modal-dialog, .modal-header, .modal-title, .modal-body, .modal-footer{
+    background-color: #fcd1a7;
+    /* background-color: #ffffff; */
+    border-color: #ffffff;
+    font-weight: bold;
+    color: #7A4D2C;
+   
+    
+}
+
+
+@media screen and (max-width:1000px){
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        box-sizing: border-box;
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;    
+    }
+    
+    .modal-dialog{
+        font-size: 1.0rem;
+    }
+    
+    #horarios-disponiveis, #editar-horarios-disponiveis{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:567px){
+
+    .table tr > th> .editar{
+    display: none;}
+    
+    .table tr > td >button {
+        display: none;}
+
+  .email {
+        display: none;}      
+   
+
+        .table{
+            margin: 15px;
+            padding: 10px;
+            background-color: white;
+        }
+            
+
+}
