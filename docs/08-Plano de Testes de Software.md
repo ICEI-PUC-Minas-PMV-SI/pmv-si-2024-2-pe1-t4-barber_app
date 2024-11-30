@@ -282,6 +282,13 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
 
 
+| Nº do Cenário | Descrição do cenário |
+|---------------|----------------------|
+| 1             | Você é uma pessoa que deseja efetuar um agendamento na barbearia. Efetue o cadastro do seu usuário e agende um horário. |
+| 2             | Você é uma pessoa que deseja consultar seus atendimentos. Efetue no site a consultas dos seus atendimentos. |
+| 3             | Você é o Administrador da Barbearia e deseja cadastrar um Barbeiro. Efetue o login com acesso de Administrador e cadastre um Barbeiro e sua agenda de atendimento. |
+| 4             | Você é um Barbeiro e deseja gerencia sua agenda. Efetue em sua agenda de atendimento bloqueio de horário, o cancelamento de horario bloqueiado e também a conclusão de atendimento. |
+
 
 ## Registro de Testes de Usabilidade
 
@@ -316,6 +323,79 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+
+Cenário 1: Você é uma pessoa que deseja efetuar um agendamento na barbearia. Efetue o cadastro do seu usuário e agende um horário.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 75.15 segundos                  |
+| 2       | SIM             | 4.75                 | 80.01 segundos                  |
+| 3       | SIM             | 5                    | 65.09 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 4.91             | 73.41 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 41.72 segundos |
+
+
+    Comentários dos usuários: O cadastro e o agendamento foram 
+	muito simples de realizar. Gostei que o sistema exibe alertas 
+	de confirmação, isso traz mais segurança durante o processo.
+
+
+Cenário 2: Você é uma pessoa que deseja consultar seus atendimentos. Efetue no site a consultas dos seus atendimentos. 
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 29.22 segundos                          |
+| 2       | SIM             | 4.7                  | 35.25 segundos                          |
+| 3       | SIM             | 5                    | 27.47 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 4.9              | 30.64 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 16.12 segundos |
+
+
+    Comentários dos usuários: A consulta foi rápida e eficiente. 
+	A consulta ajuda a garantir que tudo esteja funcionando corretamente. 
+	Achei muito organizado.
+
+
+## Registro de Testes de Usabilidade
+
+Cenário 3: Você é o Administrador da Barbearia e deseja cadastrar um Barbeiro. Efetue o login com acesso de Administrador e cadastre um Barbeiro e sua agenda de atendimento.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 75.28 segundos                  |
+| 2       | SIM             | 4.85                 | 80.37 segundos                  |
+| 3       | SIM             | 5                    | 77.45 segundos                  |
+|  |  |  |  |
+| **Média**     | 100%           | 4.95             | 77.70 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 56.83 segundos |
+
+
+    Comentários dos usuários: O login e o cadastro do barbeiro foram 
+	bem intuitivos. Os alertas de confirmação em cada etapa 
+	foram muito úteis e deixam o processo mais confiável.
+
+
+Cenário 4: Você é um Barbeiro e deseja gerencia sua agenda. Efetue em sua agenda de atendimento bloqueio de horário, o cancelamento de horario bloqueiado e também a conclusão de atendimento
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 4.9                  | 76.95 segundos                          |
+| 2       | SIM             | 5                    | 69.35 segundos                          |
+| 3       | SIM             | 5                    | 64.37 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 4.96             | 70.22 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 46.95 segundos |
+
+
+    Comentários dos usuários: A gestão da agenda 
+	funciona muito bem. Os alertas confirmando cada ação foram 
+	um diferencial, garantindo clareza e controle sobre os atendimentos.
+
+
+    
 
 ## Avaliação dos Testes de Usabilidade
 
