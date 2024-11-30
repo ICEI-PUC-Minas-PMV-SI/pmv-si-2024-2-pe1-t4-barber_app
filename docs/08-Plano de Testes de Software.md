@@ -358,9 +358,6 @@ Cenário 2: Você é uma pessoa que deseja consultar seus atendimentos. Efetue n
 	A consulta ajuda a garantir que tudo esteja funcionando corretamente. 
 	Achei muito organizado.
 
-
-## Registro de Testes de Usabilidade
-
 Cenário 3: Você é o Administrador da Barbearia e deseja cadastrar um Barbeiro. Efetue o login com acesso de Administrador e cadastre um Barbeiro e sua agenda de atendimento.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
