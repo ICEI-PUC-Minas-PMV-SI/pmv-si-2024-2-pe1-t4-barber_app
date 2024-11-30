@@ -57,6 +57,33 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Pressionar o botão sair no modal
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Cadastrar Unidade parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
+**Requisitos associados** | RF-002
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+
+**Caso de Teste** | **CT00 - Cadastrar Unidade parte 2**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuar login clicar no botão "UNIDADES" na Navbar <br> 2)Clicar no botão "Cadastrar Novos" após a lista de unidades cadastradas <br> 3) Preencha todos os campos do formulário <br> 4) Clique no botão "Salvar".
+**Requisitos associados** | RF-002
+**Resultado esperado** | Unidade cadastrada
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+
+**Caso de Teste** | **CT00 - Editar Unidade**
+ :--------------: | ------------
+**Procedimento**  | 1) Na lista de Unidades clicar no Botão "Editar" <br> 2) Dados da unidade serão carregados no formulário podendo ser alterados <br> 3) Clique no botão "Salvar".
+**Requisitos associados** | RF-002
+**Resultado esperado** | Dados da Unidade Editados
+**Dados de entrada** | Inserção de dados válidos no formulário de edição
+**Resultado obtido** | Sucesso
+
+
 **Caso de Teste** | **CT00 - Cadastrar Usuário Barbeiro parte 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
@@ -113,6 +140,25 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção e seleção de dados válidos
 **Resultado obtido** | Sucesso
 
+Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimentos
+ :--------------: | ------------
+Procedimento  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
+Requisitos associados | RF-014
+Resultado esperado | Prosseguir para a parte 2
+Dados de entrada | Inserção de dados válidos no formulário de cadastro
+Resultado obtido | Sucesso
+
+
+Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimentos parte 02
+ :--------------: | ------------
+Procedimento  | 1) Após efetuar login clicar em "Atendimentos" na NavBar <br> 2) Clicar no botão "Histórico de atendimentos <br> 3) Selecionar o barbeiro, inserir data inicial e final, selecionar opção "Concluídos" e "Não concluídos" <br>
+4) Clique no botão "Buscar" <br>
+Requisitos associados | RF-014
+Resultado esperado | Histórico de atendimento
+Dados de entrada | Inserção de dados válidos no formulário de pesquisa
+Resultado obtido | Sucesso
+
+
 **Caso de Teste** | **CT00 - Barbeiro Concluir Atendimento**
   :--------------: | ------------
 **Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Concluir Atendimento"na agenda do barbeiro.  
@@ -150,6 +196,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
+|*Caso de Teste*                                 |*CT01 - Cadastrar unidades*                                         |
+|---|---|
+|Requisito Associado | RF-002 - A aplicação deve permitir incluir e editar cadastro de unidades|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1gir3MhZkC229srmIfSoEc-8ULAgJmwH6/view?usp=sharing|
+
 |*Caso de Teste*                                 |*CT01 - Criar cadastro Barbeiro*                                         |
 |---|---|
 |Requisito Associado | RF-003 - A aplicação deve permitir cadastrar usuários Barbeiro e gerenciar seu cadastro e agenda de atendimento|
@@ -164,6 +215,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-008, RF-009, RF-011 e RF-013 - A aplicação deve permitir que o barbeiro realize o bloqueio de horários livres, incluir o agendamento pelo barbeiro, o cancelamento do bloqueio/agendamento barbeiro, bem como concluir os atendimentos realizados|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/12o0H4nqsSsQ3qr-ze1r6_ma7KE4bD9U8/view?usp=sharing| 
+
+|*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento dos barbeiros*           |
+|---|---|
+|Requisito Associado | RF-014 - A aplicação deve permitir a consulta do histórico de atendimento dos barbeiros|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SNHIkyaTBeeIfYMAoso39ieb2uLn4pc3/view?usp=drive_link| 
 
 
 ## Avaliação dos Testes de Software
