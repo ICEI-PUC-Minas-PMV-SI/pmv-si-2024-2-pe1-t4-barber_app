@@ -26,10 +26,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 
 
-**Caso de Teste** | **CT02 - Primeiro Acesso HomePage parte 1**
+**Caso de Teste** | **CT01 - Primeiro Acesso HomePage parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br>2) Navegue pela navbar, onde contém todas as sections com serviços e informações da barbearia<br>3) Clique no canto superior direito para preencher os dados no formulario e efetuar login<br> 
-**Requisitos associados** | RF-001
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br>2) Navegue pela navbar, onde contém todas as sections com serviços e informações da barbearia<br>3) Clique no canto superior direito para preencher os dados no formulario e efetuar login<br> 
+**Requisitos associados** | RF-007
 **Resultado esperado** | Usuário conectado
 **Dados de entrada** | Preenchimento de dados cadastrados no formulário de login
 **Resultado obtido** | Sucesso
@@ -37,14 +37,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT02 - Primeiro Acesso HomePage parte 2**
  :--------------: | ------------
 **Procedimento**  | 1)  Clique no canto superior direito para preencher os dados no formulario e efetuar login<br>2) Clique no canto superior direito, após o login e efetue o logout<br> 
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-007
 **Resultado esperado** | Usuário desconectado
 **Dados de entrada** | Pressionar o botão sair no modal
 **Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT00 - Cadastrar Unidade parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
 **Requisitos associados** | RF-002
 **Resultado esperado** | Prosseguir para a parte 2 do cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de login
@@ -95,7 +95,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Acesso Usuário Barbeiro**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta barbeiro <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário com uma conta barbeiro <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
 **Requisitos associados** | RF-008
 **Resultado esperado** | Prosseguir para a agenda do barbeiro
 **Dados de entrada** | Inserção de dados válidos no formulário de login
@@ -109,20 +109,28 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção e seleção de dados válidos
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Barbeiro Concluir Atendimento**
+  :--------------: | ------------
+**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Concluir Atendimento"na agenda do barbeiro.  
+**Requisitos associados** | RF-009
+**Resultado esperado** | Concluir atendimento de horário na agenda do barbeiro. 
+**Dados de entrada** | Inserção e seleção de dados válidos
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - O Administrador pode acompanhar a agenda dos barbeiros**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
 **Requisitos associados** | RF-010
 **Resultado esperado** | Prosseguir para a parte 2
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT004 - O Administrador pode acompanhar a agenda dos barbeiros parte 02**
+**Caso de Teste** | **CT00 - O Administrador pode acompanhar a agenda dos barbeiros parte 02**
  :--------------: | ------------
-**Procedimento**  | 1) Após efetuar login clicar em "Atendimentos" na NavBar <br> 2) Preencha todos os campos do formulário <br> 
-3) Clique no botão "Salvar" <br>
+**Procedimento**  | 1) Após efetuar login com acesso administrador clicar em "Atendimentos" na NavBar <br> 2) Preencha selecionar barbeiro e data <br> 
+3) Clique no botão "Buscar" <br>
 **Requisitos associados** | RF-010
-**Resultado esperado** | Agenda de atendimento 
+**Resultado esperado** | Acompanhar a agenda de atendimento de um barbeiro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
@@ -144,7 +152,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimentos
  :--------------: | ------------
-Procedimento  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
+Procedimento  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário com uma conta administrador <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
 Requisitos associados | RF-014
 Resultado esperado | Prosseguir para a parte 2
 Dados de entrada | Inserção de dados válidos no formulário de cadastro
@@ -160,15 +168,6 @@ Resultado esperado | Histórico de atendimento
 Dados de entrada | Inserção de dados válidos no formulário de pesquisa
 Resultado obtido | Sucesso
 
-
-**Caso de Teste** | **CT00 - Barbeiro Concluir Atendimento**
-  :--------------: | ------------
-**Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Concluir Atendimento"na agenda do barbeiro.  
-**Requisitos associados** | RF-009
-**Resultado esperado** | Concluir atendimento de horário na agenda do barbeiro. 
-**Dados de entrada** | Inserção e seleção de dados válidos
-**Resultado obtido** | Sucesso
-
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -177,12 +176,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-001 - O acesso a Home Page permite o usuario visualizar todos os produtos e serviços prestados pela barbearia |
 |Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1ejaZu4LSPQDPo03S5y8NaR0SpVRBCBLJ?hl=pt-br | 
-
-|*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação permite com que o usuario da administração registre novos serviços da barbearia e edite |
-|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1HzX4D1Dx_9xXFrOXJLEkJ4Plg0BfD995?hl=pt-br | 
-
 
 |*Caso de Teste*                                 |*CT01 - Cadastrar unidades*                                         |
 |---|---|
@@ -194,20 +187,25 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-003 - A aplicação deve permitir cadastrar usuários Barbeiro e gerenciar seu cadastro e agenda de atendimento|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1FgbsHgho3eAxNwQjHGMztOIosiVuFDqJ/view?usp=sharing| 
 
-|*Caso de Teste*                                 |*CT02 - Acompanhamento da agenda de atendimento dos Barbeiros*           |
-|---|---|
-|Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
-|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
-
 |*Caso de Teste*                                 |*CT01 - Gerênciamento de Agenda pelo Barbeiro*                                         |
 |---|---|
 |Requisito Associado | RF-008, RF-009, RF-011 e RF-013 - A aplicação deve permitir que o barbeiro realize o bloqueio de horários livres, incluir o agendamento pelo barbeiro, o cancelamento do bloqueio/agendamento barbeiro, bem como concluir os atendimentos realizados|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/12o0H4nqsSsQ3qr-ze1r6_ma7KE4bD9U8/view?usp=sharing| 
 
+|*Caso de Teste*                                 |*CT02 - Acompanhamento da agenda de atendimento dos Barbeiros*           |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
+
 |*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento dos barbeiros*           |
 |---|---|
 |Requisito Associado | RF-014 - A aplicação deve permitir a consulta do histórico de atendimento dos barbeiros|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SNHIkyaTBeeIfYMAoso39ieb2uLn4pc3/view?usp=drive_link| 
+
+|*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
+|---|---|
+|Requisito Associado | RF-016 - A aplicação permite com que o usuario da administração registre novos serviços da barbearia e edite |
+|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1HzX4D1Dx_9xXFrOXJLEkJ4Plg0BfD995?hl=pt-br | 
 
 
 ## Avaliação dos Testes de Software
