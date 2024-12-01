@@ -168,7 +168,7 @@ Resultado obtido | Sucesso
 
 Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimentos parte 02
  :--------------: | ------------
-Procedimento  | 1) Após efetuar login clicar em "Atendimentos" na NavBar <br> 2) Clicar no botão "Histórico de atendimentos <br> 3) Selecionar o barbeiro, inserir data inicial e final, selecionar opção "Concluídos" e "Não concluídos" <br>
+Procedimento  | 1) Após efetuar login, clicar em "Atendimentos" na NavBar <br> 2) Clicar no botão "Histórico de atendimentos <br> 3) Selecionar o barbeiro, inserir data inicial e final, selecionar opção "Concluídos" e "Não concluídos" <br>
 4) Clique no botão "Buscar" <br>
 Requisitos associados | RF-014
 Resultado esperado | Histórico de atendimento
