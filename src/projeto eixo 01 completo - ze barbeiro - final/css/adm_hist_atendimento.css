@@ -65,19 +65,9 @@ input[type="submit"]{
     padding-right: 10px;
 }
 
-input[type="button"]{
-    background-color: #c79655;
-    color: #7A4D2C;
-    padding: 5px;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
 .table{
     margin: 40px;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: white;
 }
 
@@ -86,7 +76,6 @@ input[type="button"]{
 .formulario-consulta,#tabela-agenda-atendimento{
     display: flex;
     justify-content: center;
-    text-align: center;
     
 } 
 
@@ -162,11 +151,8 @@ a img{
 
 }
 
-
 .modal-content{
     background-color:#fcd1a7;
-    font-weight: bold;
-    color: #7A4D2C;
 
 }
 
@@ -191,15 +177,6 @@ h5{
     margin-top: 0px;
 }
 
-.modal-dialog, .modal-header, .modal-title, .modal-body, .modal-footer{
-    background-color: #fcd1a7;
-    /* background-color: #ffffff; */
-    border-color: #ffffff;
-    font-weight: bold;
-    color: #7A4D2C;
-   
-    
-}
 
 @media screen and (max-width:1000px){
 
@@ -208,7 +185,7 @@ h5{
         padding: 0px;
         border: 0px;
         box-sizing: border-box;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         font-family: Arial, Helvetica, sans-serif;
         background-color: black;    
     }
@@ -217,5 +194,23 @@ h5{
         font-size: 1.2rem;
     }
     
+
+}
+
+@media screen and (max-width:576px) {
+    .table {
+        margin: 15px;
+        padding: 10px;
+        background-color: white;
+    }
+
+
+    .servico {
+        display: none;
+    }
+    .servicoValor {
+        display: none;
+    }
+
 
 }

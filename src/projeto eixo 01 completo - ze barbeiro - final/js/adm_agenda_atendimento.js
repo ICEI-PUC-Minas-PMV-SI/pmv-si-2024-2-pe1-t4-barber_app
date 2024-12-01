@@ -239,6 +239,14 @@ function preencherTabela(horarioInicial, horarioFinal, agendamentos, dataSelecio
         const cellHorario = document.createElement('td');
         const cellStatus = document.createElement('td');
 
+        // Adiciona classes às células
+        cellData.classList.add('data');
+        cellCliente.classList.add('cliente');
+        cellServico.classList.add('servico');
+        cellValor.classList.add('servicoValor');
+        cellHorario.classList.add('horario');
+        cellStatus.classList.add('status');        
+
         cellData.textContent = dataSelecionada;
         cellCliente.textContent = cliente ? cliente.nome : '';
         cellServico.textContent = servico ? servico.nome : '';

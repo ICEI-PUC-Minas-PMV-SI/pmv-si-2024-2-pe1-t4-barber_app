@@ -90,7 +90,7 @@ body {
     background-color: white;
     padding: 20px;
     border: 1px solid #888;
-    width: 30%;
+    width: auto;
     position: absolute;
     top: 10%;
     right: 0; /* Fixa o modal à direita */
@@ -203,6 +203,10 @@ body {
       margin-bottom:20% ;
       
     }
+    .modal-content-custom {
+      width: auto; /* Ajusta a largura para 90% da tela */
+      margin-right: 5%; /* Ajusta a margem para 5% */
+  }
   }
 /* Reduzir o tamanho dos textos e botões em celulares */
 @media (max-width: 576px) {
@@ -244,5 +248,8 @@ body {
   .feedbacks-card{
     width: auto !important;
   }
-  
+  .modal-content-custom {
+    width: 90%; /* Ajusta a largura para 90% da tela */
+    margin-right: 5%; /* Ajusta a margem para 5% */
+}
 }

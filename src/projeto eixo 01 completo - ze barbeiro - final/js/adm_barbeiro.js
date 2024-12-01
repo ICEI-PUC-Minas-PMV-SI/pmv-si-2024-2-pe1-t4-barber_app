@@ -92,7 +92,7 @@ function getdata() {
                             saida += `<tr>  
                               <td>${usuarioCorrespondente.nome}</td> <!-- Nome do usuário -->
                               <td>${barbeiro.servico}</td> <!-- Serviço do barbeiro -->
-                              <td>${barbeiro.statusBarbeiro ? 'Ativo': 'Inativo'}</td> <!-- Status do barbeiro -->
+                              <td class="status">${barbeiro.statusBarbeiro ? 'Ativo': 'Inativo'}</td> <!-- Status do barbeiro -->
                                
                                <td><button id="btn-cad-barbeiro" type="button" class="btn-editar-barbeiro" data-bs-toggle="modal"
           data-bs-target="#modal-edicao" onclick="editarBarbeiro('${barbeiro.id}')"style="background-color: #c79655;">

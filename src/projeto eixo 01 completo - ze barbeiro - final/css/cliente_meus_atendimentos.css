@@ -19,7 +19,7 @@ body {
 
 }
 
-.navatendimentos{
+.navmeusatendimento{
     color: #c79655 !important;
 }
 
@@ -48,7 +48,7 @@ form{
    
 }
 
-input, select{
+input{
     margin: 10px;
     border-radius: 25px;
     padding: 5px;
@@ -151,12 +151,13 @@ a img{
 
 }
 
+
 .modal-content{
     background-color:#fcd1a7;
 
 }
 
-.modal-footer button[type="button"]{
+button[type="button"]{
     background-color: #c79655 ;
     text-align: center;
     justify-content: center;
@@ -177,7 +178,6 @@ h5{
     margin-top: 0px;
 }
 
-
 @media screen and (max-width:1000px){
 
     body {
@@ -185,7 +185,7 @@ h5{
         padding: 0px;
         border: 0px;
         box-sizing: border-box;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         font-family: Arial, Helvetica, sans-serif;
         background-color: black;    
     }
@@ -194,5 +194,60 @@ h5{
         font-size: 1.2rem;
     }
     
+
+}
+
+@media screen and (max-width:711px) {
+
+    .cliente {
+        display: none;
+    }
+
+
+ 
+
+    .table {
+        margin: 15px;
+        padding: 10px;
+        background-color: white;
+    }
+
+
+
+    .servicoValor {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width:576px) {
+
+    .cliente {
+        display: none;
+    }
+
+
+
+    .data {
+        display: none;
+    }
+
+
+
+    .table {
+        margin: 15px;
+        padding: 10px;
+        background-color: white;
+    }
+
+
+  
+
+    .servicoValor {
+        display: none;
+    }
+
 
 }

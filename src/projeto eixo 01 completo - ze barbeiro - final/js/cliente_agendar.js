@@ -503,6 +503,15 @@ function preencherTabela(barbeiroId, horarioInicial, horarioFinal, agendamentos,
             const cellStatus = document.createElement('td');
             const cellAcao = document.createElement('td');
 
+                // Adiciona classes específicas às células
+             cellData.classList.add('data');
+             cellBarbeiro.classList.add('barbeiro');
+             cellHorario.classList.add('horario');
+             cellServico.classList.add('servico');
+             cellValor.classList.add('servicoValor');
+             cellStatus.classList.add('status');
+             cellAcao.classList.add('acao');
+
             cellData.textContent = dataFormatada;
             cellHorario.textContent = horarioFormatado;
 
