@@ -40,11 +40,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Barbeiro  | Preciso acompanhar minha agenda de atendimentos           |Para que o barbeiro possa verificar com recorrência os horários para atendimento.             |
 |Barbeiro       | Preciso bloquear horários em minha agenda            | Para que o barbeiro consiga bloquear sua agenda quando necessário. |
-|Barbeiro  |Preciso que seja enviado uma notificação solicitando confirmação para o cliente           | Para que o barbeiro possa acompanhar quais horário estão de fato confirmados ou não.             |
-|Barbeiro       |Preciso cancelar um agendamento não confirmado               | Para que o barbeiro consiga cancelar um atendimento não confirmado. |
+|Barbeiro  |Preciso acompanhar os historicos de atendimentos           | Para que o barbeiro possa acompanhar os históricos de atendimento.             |
+|Barbeiro       |Preciso cancelar um agendamento barbeiro ou bloqueio de agenda               | Para que o barbeiro ancelar um agendamento barbeiro ou bloqueio de agenda. |
 |Barbearia  | Preciso realizar o cadastro dos barbeiros        | Para poder cadastrar os profissionais que prestão serviço na barbearia.              |
 |Barbearia       | Preciso cadastrar serviços disponíveis na barbearia                 | Para poder gerenciar e atualizar os serviços disponíveis aos clientes. |
-|Barbearia | Preciso acompanhar os agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinâmica de atendimento da barberia como um todo.               |
+|Barbearia | Preciso acompanhar as agendas dos profisssionais           | Para poder acompanhar o desempenho de cada profissional e a dinâmica de atendimento da barberia como um todo.               |
 |Cliente       | Preciso consultar os horários disponíveis nas agendas                | Para que o cliente tenha a liberdade de escolher o melhor dia e horário |
 |Cliente  | Preciso consultar meu histórico de atendimentos           | Para que o cliente consiga consultar seu último atendimento e se programar para um novo agendamento               |
 |Cliente       | Preciso consultar meu horário de agendamento                 | Pare que o cliente acompanhe com certa recorrência o horário agendado |
@@ -70,20 +70,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| O cliente deve ser capaz de realizar o cadastro no sistema.   | ALTA |
-|RF-002| O administrador da barbearia deve cadastrar os dados do estabelecimento.   | ALTA |
+|RF-002| O administrador da barbearia deve cadastrar os dados das unidades.   | ALTA |
 |RF-003| O administrador deve cadastrar os barbeiros. | ALTA |
-|RF-004| O sistema deve autenticar o usuário de acordo com seu perfil | ALTA | 
-|RF-005| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente   | ALTA |
-|RF-006| O cliente deve ser capaz de agendar um atendimento | MÉDIA | 
-|RF-007| O sistema deve redirecionar cliente e barbeiro para telas diferentes   | MÉDIA |
+|RF-004| O sistema deve autenticar o usuário de acordo com seu perfil. | ALTA | 
+|RF-005| Deve haver uma agenda dos dias e horários disponíveis na tela do cliente.   | ALTA |
+|RF-006| O cliente deve ser capaz de agendar um atendimento. | MÉDIA | 
+|RF-007| O sistema deve redirecionar cliente e barbeiro para telas diferentes.   | MÉDIA |
 |RF-008| O barbeiro pode ser capaz de bloquear horários livres em sua agenda. | MÉDIA | 
-|RF-009| O Barbeiro deve ser capaz de finalizar um atendimento, para que seja possível iniciar o próximo atendimento  | MÉDIA |
-|RF-010| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro   | MÉDIA |
-|RF-011| O Barbeiro deve ser capaz de cancelar um agendamento ainda não confirmado | MÉDIA | 
-|RF-012| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele, antes de um determinado prazo e antes da confirmação   | BAIXA |
-|RF-013| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes, sendo possível visualizar se já foi confirmado ou não. | BAIXA | 
+|RF-009| O Barbeiro deve ser capaz de finalizar um atendimento.  | MÉDIA |
+|RF-010| Deve haver uma visualização detalhada do atendimento, sendo acessível tanto por cliente quanto para o Barbeiro.   | MÉDIA |
+|RF-011| O Barbeiro deve ser capaz de cancelar um agendamento ou bloquio de agenda realizado por ele. | MÉDIA | 
+|RF-012| O cliente deve ser capaz de excluir um agendamento que foi cadastrado por ele.   | BAIXA |
+|RF-013| O barbeiro deve ser capaz de ver os agendamentos realizados pelos clientes. | BAIXA | 
 |RF-014| Deve haver um histórico de atendimentos que já foram finalizados, podendo ser visualizado tanto por parte do barbeiro quanto por parte do cliente.   | BAIXA |
-|RF-015| Apurar os serviços realizados pelo barbeiro   | BAIXA |
+|RF-015| O administrador deve conseguir apurar os serviços realizados por um barbeiro.   | BAIXA |
+|RF-016| O administrador da barbearia deve cadastrar os serviços.   | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -92,9 +93,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| Será utilizado JSON-server | ALTA | 
 |RNF-002| A interface do sistema deve ser elaborada de forma amigável e convidativa, utilizando uma estética atraente de elementos visuais, promovendo um design limpo, descomplicado, que facilite a navegação e priorize sempre a funcionalidade do sistema. |  ALTA | 
 |RNF-003| Deve ser gerado um id único para cada usuário cadastrado | ALTA | 
-|RNF-004| As senhas dos usuários devem ser criptografadas em crypto | ALTA | 
-|RNF-005| O tempo para acesso da plataforma não deve superar 3 segundos | MEDIA | 
-|RNF-006| O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores | BAIXA | 
+|RNF-004| O tempo para acesso da plataforma não deve superar 3 segundos | MEDIA | 
+|RNF-007 O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores | BAIXA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
