@@ -44,7 +44,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT00 - Cadastrar Usuário Cliente
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no ícone no canto superior direito. Após isso, abrirá uma tela de login. Clique em "Cadastre-se"  <br> 3) Preencha todos os campos do formulário. <br> 4) Clique no botão "salvar".
+**Procedimento**  | 1) Acesse o endereço https://index.html](https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no ícone no canto superior direito. Após isso, abrirá uma tela de login. Clique em "Cadastre-se"  <br> 3) Preencha todos os campos do formulário. <br> 4) Clique no botão "salvar".
 **Requisitos associados** | RF-001
 **Resultado esperado** | Confirmação do cadastro do usuário no sistema.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -176,7 +176,7 @@ Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimen
 
 **Caso de Teste** | **CT00 - O Barbeiro pode acompanhar o histórico de atendimentos parte 01
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma Conta administrador <br> 3) Autentique o login do barbeiro  <br> 4) Clique no botão "entrar".
+**Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário com uma Conta administrador <br> 3) Autentique o login do barbeiro  <br> 4) Clique no botão "entrar".
 **Requisitos associados** | RF-014
 **Resultado esperado** | Prosseguir para a próxima etapa
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
