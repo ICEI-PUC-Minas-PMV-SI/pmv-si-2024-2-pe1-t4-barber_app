@@ -183,20 +183,6 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - A aplicação permite com que o usuario da administração registre novos serviços da barbearia e edite |
 |Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1HzX4D1Dx_9xXFrOXJLEkJ4Plg0BfD995?hl=pt-br | 
 
-|*Caso de Teste*                                |*CT02 - Criar conta parte 1*                                       |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 1*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
-
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 1*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 |*Caso de Teste*                                 |*CT01 - Cadastrar unidades*                                         |
 |---|---|
@@ -263,12 +249,6 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
-
-| Nº do Cenário | Descrição do cenário |
-|---------------|----------------------|
 | 1             | Você é uma pessoa que deseja efetuar um agendamento na barbearia. Efetue o cadastro do seu usuário e agende um horário. |
 | 2             | Você é uma pessoa que deseja consultar seus atendimentos. Efetue no site a consultas dos seus atendimentos. |
 | 3             | Você é o Administrador da Barbearia e deseja cadastrar um Barbeiro. Efetue o login com acesso de Administrador e cadastre um Barbeiro e sua agenda de atendimento. |
@@ -276,39 +256,6 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 
 ## Registro de Testes de Usabilidade
-
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
-
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
 
 Cenário 1: Você é uma pessoa que deseja efetuar um agendamento na barbearia. Efetue o cadastro do seu usuário e agende um horário.
 
@@ -375,21 +322,10 @@ Cenário 4: Você é um Barbeiro e deseja gerencia sua agenda. Efetue em sua age
     Comentários dos usuários: A gestão da agenda 
 	funciona muito bem. Os alertas confirmando cada ação foram 
 	um diferencial, garantindo clareza e controle sobre os atendimentos.
+ 
 
 
-    
-
-## Avaliação dos Testes de Usabilidade
-
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
-
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-## Avaliação dos Testes de Usabilidade nosso  projeto: 
+## Avaliação dos Testes de Usabilidade 
 
 Com base nos resultados obtidos, foi possível verificar que a aplicação apresentou excelente desempenho em termos de taxa de sucesso, uma vez que todos os objetivos propostos foram concluídos com sucesso para todos os usuários. Além disso, a satisfação subjetiva dos participantes foi muito alta, com médias variando entre 4,9 e 5 em uma escala de 1 a 5, o que demonstra que a aplicação atendeu bem às expectativas dos usuários.
 
