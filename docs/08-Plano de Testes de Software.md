@@ -198,6 +198,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - HOMEPAGE USABILIDADE, LOGIN, LOGOUT *                                         |
 |---|---|
 |Requisito Associado | RF-001 - O acesso a Home Page permite o usuario visualizar todos os produtos e serviços prestados pela barbearia |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/19EbQ2X4hNsfmieFvLKI69v687SPooEnX/view?usp=sharing | 
+
+|*Caso de Teste*                                 |*CT01 - LOGIN USUÁRIO *                                         |
+|---|---|
+|Requisito Associado | RF-001 - Aplicação deve permitir o cadastro de usuário cliente. |
 |Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1ejaZu4LSPQDPo03S5y8NaR0SpVRBCBLJ?hl=pt-br | 
 
 |*Caso de Teste*                                 |*CT01 - Cadastrar unidades*                                         |
@@ -220,10 +225,15 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
 
-|*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento dos barbeiros*           |
+|*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento dos barbeiros pelo administrador*           |
 |---|---|
 |Requisito Associado | RF-014 - A aplicação deve permitir a consulta do histórico de atendimento dos barbeiros|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1SNHIkyaTBeeIfYMAoso39ieb2uLn4pc3/view?usp=drive_link| 
+
+|*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento pelo barbeiro*           |
+|---|---|
+|Requisito Associado | RF-014 - A aplicação deve permitir que o barbeiro consulte o seu histórico de atendimentos. |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1ZX4yYMfzq0MDqoffHnrcuE_TSZSQ69rg/view?usp=sharing | 
 
 |*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
 |---|---|
