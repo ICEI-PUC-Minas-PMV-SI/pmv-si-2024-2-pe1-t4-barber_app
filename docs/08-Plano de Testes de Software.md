@@ -42,6 +42,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Pressionar o botão sair no modal
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Cadastrar Usuário Cliente
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no ícone no canto superior direito. Após isso, abrirá uma tela de login. Clique em "Cadastre-se"  <br> 3) Preencha todos os campos do formulário. <br> 4) Clique no botão "salvar".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Confirmação do cadastro do usuário no sistema.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - Cadastrar Unidade parte 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário <br> 2) Insira e-mail e senha administrador <br> 3) Clique no botão "entrar".
@@ -161,6 +169,23 @@ Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimen
 Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimentos parte 02
  :--------------: | ------------
 **Procedimento**  | 1) Após efetuar login, clicar em "Atendimentos" na NavBar <br> 2) Clicar no botão "Histórico de atendimentos <br> 3) Selecionar o barbeiro, inserir data inicial e final, selecionar opção "Concluídos" e "Não concluídos" <br> 4) Clique no botão "Buscar" <br>
+**Requisitos associados** | RF-014
+**Resultado esperado** | Histórico de atendimento
+**Dados de entrada** | Inserção de dados válidos no formulário de pesquisa
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - O Barbeiro pode acompanhar o histórico de atendimentos parte 01
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço https://index.html <br> 2) Clique no icone de usuário com uma Conta administrador <br> 3) Autentique o login do barbeiro  <br> 4) Clique no botão "entrar".
+**Requisitos associados** | RF-014
+**Resultado esperado** | Prosseguir para a próxima etapa
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - O Barbeiro pode acompanhar o histórico de atendimentos parte 02
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuar o login, o barbeiro deve clicar em "Atendimentos" na NavBar <br> 2) Clicar no botão "Histórico de atendimentos <br> 3) Selecionar data inicial e final e selecionar opção concluídos ou não concluídos <br> 4) Clicar no botão "buscar"
+4) Clique no botão "Buscar" <br>
 **Requisitos associados** | RF-014
 **Resultado esperado** | Histórico de atendimento
 **Dados de entrada** | Inserção de dados válidos no formulário de pesquisa
