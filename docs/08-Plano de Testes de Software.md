@@ -101,6 +101,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Cliente - Realizar agendamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuario e faça login ou crie uma conta <br> 3) Selecione o barbeiro, o serviço e a data e clique em Buscar. <br> 4) Na lista de horários disponíveis, selecione o desejado e clique em Incluir Atendimento.
+**Requisitos associados** | RF-006 e RF-007
+**Resultado esperado** | Realizar agendamento.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - Acesso Usuário Barbeiro**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuário com uma conta barbeiro <br> 2) Insira e-mail e senha <br> 3) Clique no botão "entrar".
@@ -149,6 +157,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção e seleção de dados válidos
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT00 - Cliente - Cancelar agendamento**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuario e faça login ou crie uma conta <br> 3) Selecione o barbeiro, o serviço e a data e clique em Buscar. <br> 4) Na lista de horários disponíveis, selecione o desejado e clique em Cancelar Atendimento.
+**Requisitos associados** | RF-007 e RF-012
+**Resultado esperado** | Realizar Cancelamento de um agendamento.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
 **Caso de Teste** | **CT00 - Barbeiro Incluir Agendamento**
   :--------------: | ------------
 **Procedimento**  | 1) Selecionar data e clicar no botão "Buscar" para carregar agenda do barbeiro. <br> 2) Clicar no checkbox do respectivo horário e em seguida clicar no botão "Incluir Atendimento"na agenda do barbeiro.  
@@ -189,6 +205,14 @@ Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimen
 **Requisitos associados** | RF-014
 **Resultado esperado** | Histórico de atendimento
 **Dados de entrada** | Inserção de dados válidos no formulário de pesquisa
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Cliente - Consultar Histórico de Atendimentos**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuario e faça login ou crie uma conta <br> 3) Clicar em Meus atendimentos. <br> 4) Escolher o período desejado e o status dos atendimentos e clicar em Buscar.
+**Requisitos associados** | RF-014
+**Resultado esperado** | Consultar histórico de agendamentos.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
