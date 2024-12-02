@@ -238,6 +238,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-003 - A aplicação deve permitir cadastrar usuários Barbeiro e gerenciar seu cadastro e agenda de atendimento|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1FgbsHgho3eAxNwQjHGMztOIosiVuFDqJ/view?usp=sharing| 
 
+|*Caso de Teste*                                 |*CT01 - Cliente - Realizar Agendamento*                                         |
+|---|---|
+|Requisito Associado | RF-006, RF-007  - A aplicação deve direcionar o usuário cliente e barbeiro para diferentes telas / O cliente deve ser capaz de realizar um agendamento|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/13uCUS8EPqp6a9ae6s0VQuOs0FSZWdBWd/view?usp=sharing| 
+
 |*Caso de Teste*                                 |*CT01 - Gerênciamento de Agenda pelo Barbeiro*                                         |
 |---|---|
 |Requisito Associado | RF-008, RF-009, RF-011 e RF-013 - A aplicação deve permitir que o barbeiro realize o bloqueio de horários livres, incluir o agendamento pelo barbeiro, o cancelamento do bloqueio/agendamento barbeiro, bem como concluir os atendimentos realizados|
@@ -248,6 +253,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-010 - A aplicação deve permitir que o usuário Administrador gerencie a agenda de atendimento dos barbeiros|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1xD8S_OlAa3hHLy7Agrt6-lZp5QjWqaWU/view?usp=sharing| 
 
+|*Caso de Teste*                                 |*CT01 - Cliente - Cancelar Agendamento*                                         |
+|---|---|
+|Requisito Associado | RF-012  - A aplicação deve permitir que o cliente cancele o agendamento|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1Ljd43-7qasEt5UJlQ2zBA2IN0GCiftAl/view?usp=sharing| 
+
 |*Caso de Teste*                                 |*CT02 - Acompanhamento do histórico de atendimento dos barbeiros pelo administrador*           |
 |---|---|
 |Requisito Associado | RF-014 - A aplicação deve permitir a consulta do histórico de atendimento dos barbeiros|
@@ -257,6 +267,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-014 - A aplicação deve permitir que o barbeiro consulte o seu histórico de atendimentos. |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1ZX4yYMfzq0MDqoffHnrcuE_TSZSQ69rg/view?usp=sharing | 
+
+|*Caso de Teste*                                 |*CT01 - Cliente - Consultar Histórico*                                         |
+|---|---|
+|Requisito Associado | RF-012  - A aplicação deve permitir que o cliente consulte o histórico de agendamentos|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1qDHrIbUKmB_YorP-dvOx6djcqgFRjAB3/view?usp=sharing| 
 
 |*Caso de Teste*                                 |*CT02 - SERVIÇOS CADASTRADOS*                                        |
 |---|---|
