@@ -46,7 +46,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço https://index.html](https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no ícone no canto superior direito. Após isso, abrirá uma tela de login. Clique em "Cadastre-se"  <br> 3) Preencha todos os campos do formulário. <br> 4) Clique no botão "salvar".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Confirmação do cadastro do usuário no sistema.
+**Resultado esperado** | Confirmação do cadastro do usuário no sistema
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
@@ -210,8 +210,16 @@ Caso de Teste | CT00 - O Administrador pode acompanhar o histórico de atendimen
  :--------------: | ------------
 **Procedimento**  | 1) Acessar o endereço https://projeto-eixo-1-completo-teste-vercel.vercel.app/ <br> 2) Clique no icone de usuario e faça login ou crie uma conta <br> 3) Clicar em Meus atendimentos. <br> 4) Escolher o período desejado e o status dos atendimentos e clicar em Buscar.
 **Requisitos associados** | RF-014
-**Resultado esperado** | Consultar histórico de agendamentos.
+**Resultado esperado** | Consultar histórico de agendamentos
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT00 - Efetuar Cadastro de Serviço**
+ :--------------: | ------------
+**Procedimento**  | 1) Acessar o endereço https://PROJETO%20EIXO%20COMPLETO/adm_barbeiro.html <br> 2) No dashboard "serviços cadastrados" selecionar o botão "Cadastrar novos serviços". <br> 3) No modal, após digitar o nome do serviço, valor a ser pago e tempo pressionar em "Salvar". <br> 4) Selecionar no dashboard "serviços cadastrados" o botao "Editar", para alterar alguma atualização do serviço já cadastrado 
+**Requisitos associados** | RF-016
+**Resultado esperado** |Cadastro de novos serviços e editar serviços cadastrados
+**Dados de entrada** | Inserção de dados válidos no formulário para cadastro de serviços
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
