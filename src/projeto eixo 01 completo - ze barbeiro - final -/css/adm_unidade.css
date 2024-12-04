@@ -44,11 +44,12 @@ button{
     justify-content: center;
     border-radius: 25px;  
     align-content: center;
-    color: #000000;
+    color: #7A4D2C;
     padding: 5px;
     margin: 15px;
     border: none;
     font-weight: bold;
+
 }
 
 #cancelar-salvar-unidade, #cancelar-edit-salvar-unidade{

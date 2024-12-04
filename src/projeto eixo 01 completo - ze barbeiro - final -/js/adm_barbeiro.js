@@ -305,7 +305,7 @@ function createItem() {
         // Conversão para JSON e envio dos dados do usuário
         const jsonData1 = JSON.stringify(usuario);
         const xhr1 = new XMLHttpRequest();
-        xhr1.open("POST", "http://localhost:3000/usuarios", true);
+        xhr1.open("POST", urlUsuario, true);
         xhr1.setRequestHeader("Content-Type", "application/json");
 
         // Função de callback para quando a requisição de usuário for completada
@@ -333,7 +333,7 @@ function createItem() {
                     // Conversão para JSON e envio dos dados do barbeiro
                     const jsonData2 = JSON.stringify(barbeiro);
                     const xhr2 = new XMLHttpRequest();
-                    xhr2.open("POST", "http://localhost:3000/barbeiros", true);
+                    xhr2.open("POST", urlBarbeiro, true);
                     xhr2.setRequestHeader("Content-Type", "application/json");
 
                     xhr2.onreadystatechange = function () {

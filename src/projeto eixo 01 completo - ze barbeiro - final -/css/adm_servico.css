@@ -136,10 +136,18 @@ margin-top: 0px;
 }
 button{
     border-radius: 25px !important;
-    background-color: #C79655;
-    color:#7a4d2c;
-    border: none;
     margin: 15px;
+    background-color: #c79655 ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 25px;  
+    align-content: center;
+    color: #7A4D2C;
+    padding: 5px;
+    margin: 15px;
+    border: none;
+    font-weight: bold;
+    
 }
 .modal-dialog{
     border-radius: 5px;
@@ -152,7 +160,13 @@ button{
     
 }
 
-
+.table{
+    margin: 40px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
   
 tr .btn-editar-servico{
     background-color:  #fcd1a7 !important;
