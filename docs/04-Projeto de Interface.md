@@ -46,16 +46,6 @@ Tela dedicada para o usuário realizar o agendamento.
 
 ![UserFlow](img/CLIENTE_AGENDAR.jpg)
 
-### Acesso Cliente - Pré-Agendamento 
-Nessa tela, o cliente revisará o agendamento feito antes de confirmar. 
-
-![UserFlow](img/CLIENTE_PREAGENDAMENTO.jpg)
-
-### Acesso Cliente - Notificação - Confirmação Agendamento
-Será enviada uma notificação para o cliente, na qual deverá confirmar o agendamento. 
-
-![UserFlow](img/CLIENTE_NOTIFICACAO_AGENDAMENTO.jpg)
-
 ### Acesso Cliente - Meus Agendamentos - Histórico
 O cliente tem a opção de verificar o histórico de serviços que consumiu na barbearia. 
 
