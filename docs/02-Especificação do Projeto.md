@@ -94,7 +94,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A interface do sistema deve ser elaborada de forma amigável e convidativa, utilizando uma estética atraente de elementos visuais, promovendo um design limpo, descomplicado, que facilite a navegação e priorize sempre a funcionalidade do sistema. |  ALTA | 
 |RNF-003| Deve ser gerado um id único para cada usuário cadastrado | ALTA | 
 |RNF-004| O tempo para acesso da plataforma não deve superar 3 segundos | MEDIA | 
-|RNF-007 O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores | BAIXA | 
+|RNF-007| O sistema deve ser responsivo, atendendo tanto a dispositivos móveis quanto a telas maiores | BAIXA | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
