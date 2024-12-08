@@ -27,7 +27,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Instruções de utilização
 
-O sistema pode ser visitado online, clicando no seguinte link https://projeto-eixo-1-completo-teste-vercel.vercel.app/. Ou, localmente, baixando os arquivos e instalando o VSCODE, NODE.JS e JSON WebServer.
+O sistema pode ser visitado online, clicando no seguinte link https://projeto-eixo-1-completo-teste-vercel.vercel.app/. Ou, localmente, baixando os arquivos e instalando o VSCODE, NODE.JS e JSON Server.
 
 # Documentação
 
