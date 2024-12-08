@@ -28,7 +28,7 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Vídeo de demonstração
 
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
+Apresentação em vídeo do sistema desenvolvido: https://drive.google.com/file/d/1JMHW5wJ73tA5IhI-ZEqgRuH6UL6JtB_2/view
 
 > **Algumas informações úteis**
 > - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
