@@ -5,7 +5,7 @@ Faça uma apresentação de um resumo de todos o processo de desenvolvimento e n
 Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
 
 
-* [Pitch inicial](./sample-pitch.pdf) -- arquivo com os slides da apresentação inicial
+* [Pitch inicial](./PROJETO APRESENTAÇÃO ETAPAS 01 E 02_) -- arquivo com os slides da apresentação inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](https://drive.google.com/file/d/1JMHW5wJ73tA5IhI-ZEqgRuH6UL6JtB_2/view) -- Vídeo com a demonstração das principais funcionalidades implementadas no sistema.
 
