@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adm_Barbeiro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/adm_barbeiro.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script> -->
+  <script src="js/adm_barbeiro.js" defer></script>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- jQuery Masked Input Plugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
+  <!-- Arquivo JS personalizado -->
+  <script>
+    $(document).ready(function () {
+      // Função para aplicar máscaras
+      $('.mascara-cpf').mask('999.999.999-99');
+      $('.mascara-cel').mask('(99)99999-9999');
+      $('#telefone').mask('(99)99999-9999');
+      $('.mascara-tel').mask('(99)9999-9999');
+      $('.mascara-ip').mask('999.99.999.99');
+      $('.mascara-data-mes-ano').mask('99/9999');
+      $('.mascara-data').mask('99/99/9999', { placeholder: "dd/mm/YYYY" });
+      $('.mascara-data2').mask('99/9999', { placeholder: "mm/YYYY" });
+      $('.mascara-cep').mask('99999-999');
+    });
+  </script>
+  <!-- JavaScript do Bootstrap 5 -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <link rel="icon" href="img/Logo Zé Barbeiro 2.png" type="image/x-icon">
+</head>
+
+<body>
+  <header id="header" class="p-4 container-fluid  text-light justify-content-between"
+    style="background-image: url('img/Barbearia-capa1.jpg'); background-size: cover; background-position: center;">
+    <section class="row">
+      <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html"><img id="logotipo" src="img/Logo Zé Barbeiro 2.png "
+              style="max-height: 100px; max-width: 100px" alt="">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-between">
+              <a class="nav-link text-light" href="adm_barbeiro.html">INÍCIO</a>
+              <a class="nav-link text-light navbaribeiros" href="adm_barbeiro.html">BARBEIROS</a>
+              <a class="nav-link text-light" href="adm_unidade.html">UNIDADES</a>
+              <a class="nav-link text-light" href="adm_servico.html">SERVIÇOS</a>
+              <a class="nav-link text-light" href="adm_agenda_atendimento.html">ATENDIMENTOS</a>
+
+            </div>
+
+            <button type="button" class="btn rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#sairModal"
+              style="background-color:#c79655 ;">
+              <img src="img/ICONE USUARIO.png" style="max-height: 70px; max-width: 20px" alt="">
+            </button>
+
+            <!-- Modal -->
+            <!-- <div class="modal fade" id="sairModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm modal-posicao rounded-pill">
+                <div class="modal-content" style="background-color:#fcd1a7 ;">
+                  <div class="modal-header border-0 m-0 p-0 ">
+                    <button type="button" class="btn-close m-0 justify-content-end" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body border-0 p-0 m-0">
+
+                    <a class="btn" href="#" role="button" style="background-color:#fcd1a7 ;"><img
+                        src="img/ICONE USUARIO.png" style="max-height: 70px; max-width: 20px" alt="">Minha conta</a>
+                    <a class="btn" href="#" role="button" style="background-color:#fcd1a7 ;"><img src="img/cadeado.png"
+                        style="max-height: 70px; max-width: 20px" alt="">Alterar senha</a>
+                  </div>
+                  <div class="modal-footer border-0 p-0 m-0">
+                    <a class="btn" href="index.html" role="button" style="background-color:#fcd1a7 ;"><img src="img/sair.png"
+                        style="max-height: 70px; max-width: 20px" alt="">Sair</a>
+
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="sairModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm modal-posicao rounded-pill">
+                <div class="modal-content" style="background-color:#fcd1a7 ;">
+                  <div class="modal-header border-0 m-0 p-0 ">
+                    <button type="button" class="btn-close m-0 justify-content-end" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body border-0 p-0 m-0">
+
+                    <a class="btn" href="#" role="button" style="background-color:#fcd1a7 ;" data-bs-toggle="modal"
+                      data-bs-target="#minhaContaModal"><img src="img/ICONE USUARIO.png"
+                        style="max-height: 70px; max-width: 20px" alt="">Minha conta</a>
+                    <a class="btn" href="#" role="button" style="background-color:#fcd1a7 ;" data-bs-toggle="modal"
+                      data-bs-target="#alterarSenhaModal"><img src="img/cadeado.png"
+                        style="max-height: 70px; max-width: 20px" alt="">Alterar senha</a>
+                  </div>
+                  <div class="modal-footer border-0 p-0 m-0">
+                    <a class="btn" href="index.html" role="button" style="background-color:#fcd1a7 ;"><img
+                        src="img/sair.png" style="max-height: 70px; max-width: 20px" alt="">Sair</a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal Minha Conta -->
+            <div class="modal fade" id="minhaContaModal" tabindex="-1" aria-labelledby="minhaContaModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="minhaContaModalLabel">Minha Conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="formMinhaConta">
+                      <div class="mb-3">
+                        <label for="usuarioNome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="usuarioNome" readonly>
+                      </div>
+                      <div class="mb-3">
+                        <label for="usuarioEmail" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="usuarioEmail" readonly>
+                      </div>
+                      <div class="mb-3">
+                        <label for="usuarioTelefone" class="form-label">Telefone:</label>
+                        <input type="text" class="form-control" id="usuarioTelefone" readonly>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Modal Alterar Senha -->
+            <div class="modal fade" id="alterarSenhaModal" tabindex="-1" aria-labelledby="alterarSenhaModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" style="background-color: #fcd1a7;">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="alterarSenhaModalLabel">Alterar Senha</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="formAlterarSenha">
+                      <div class="mb-3">
+                        <label for="senhaAtual" class="form-label">Senha Atual:</label>
+                        <input type="password" class="form-control" id="senhaAtual" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="novaSenha" class="form-label">Nova Senha:</label>
+                        <input type="password" class="form-control" id="novaSenha" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="confirmarNovaSenha" class="form-label">Confirmar Nova
+                          Senha:</label>
+                        <input type="password" class="form-control" id="confirmarNovaSenha" required>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="btnAlterarSenha">Alterar
+                      Senha</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </nav>
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-1 my-1"
+        style="border-top: 2px solid #c79655;">
+
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>BARBEIROS CADASTRADOS</h1>
+      <div id="lista-barbeiros-cadastrado">
+        <table class="table">
+          <caption></caption>
+          <thead>
+            <tr>
+              <th class="barbeiro-cadastrados">BARBEIRO</th>
+              <th class="servicos">SERVIÇOS</th>
+              <th class="status">STATUS</th>
+              <th class="cabecalho-editar"></th>
+            </tr>
+
+          </thead>
+          <tbody id="listar-barbeiros-cadastrados">
+
+            <!-- <tr>
+              <td>BARBEIRO 01 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr>
+            <tr>
+              <td>BARBEIRO 02 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr>
+            <tr>
+              <td>BARBEIRO 03 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr>
+            <tr>
+              <td>BARBEIRO 04 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr>
+            <tr>
+              <td>BARBEIRO 05 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr>
+            <tr>
+              <td>BARBEIRO 06 </td>
+              <td>Corte de Cabelo, Corte Infantil, Barba c/ Navalha</td>
+              <td>Ativo</td>
+              <td><button class="editar">Editar</button></td>
+            </tr> -->
+
+          </tbody>
+        </table>
+
+        <!-- Modal de Edição -->
+        <!-- <div id="modal-edicao" class="modal row modal-lg">
+          <div class="modal-content col-md-3">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <h2>Editar Barbeiro</h2>
+            <form id="form-edicao">
+              <input type="hidden" id="edit-id">
+              <label for="edit-nome">Nome:</label>
+              <input type="text" id="edit-nome">
+              <label for="edit-email">Email:</label>
+              <input type="email" id="edit-email">
+              <label for="edit-telefone">Telefone:</label>
+              <input type="text" id="edit-telefone">
+              <label for="edit-servico">Serviço:</label>
+              <input type="text" id="edit-servico">
+              <label for="edit-status">Status:</label>
+              <select id="edit-status">
+                <option value="true">Ativo</option>
+                <option value="false">Inativo</option>
+              </select>
+              <button type="button" onclick="salvarEdicao()">Salvar</button>
+            </form>
+          </div>
+        </div> -->
+
+
+
+      </div>
+
+
+
+
+      <!-- Modal de Edição -->
+      <div class="modal fade fs-6" id="modal-edicao" tabindex="-1" aria-labelledby="modalEdicaoLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg rounded-pill">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-center w-100" id="modalEdicaoLabel">EDITAR BARBEIRO</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+
+            <div class="modal-body">
+              <form id="form-edicao">
+                <!-- Seção 1: Dados do Barbeiro -->
+                <div class="mb-3">
+                  <h5 class="text-center">Dados do Barbeiro</h5>
+                  <div class="row">
+
+
+                    <input type="hidden" id="edit-idd" required>
+                    <!-- <input type="text" class="form-control" id="edit-idd" required> -->
+
+
+                    <div class="col-md-6">
+                      <label for="edit-nome" class="form-label">Nome:</label>
+                      <input type="text" class="form-control" id="edit-nome" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="edit-email" class="form-label">E-mail:</label>
+                      <input type="email" class="form-control" id="edit-email" required>
+                    </div>
+                    <div class="col-sm-3 col-md-6 mt-3">
+                      <label for="edit-senha" class="form-label">Senha: </label>
+                      <input type="password" class="form-control" id="edit-senha" required>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                      <label for="edit-telefone" class="form-label">Telefone:</label>
+                      <input type="text" class="form-control" id="edit-telefone" required>
+                    </div>
+
+                    <div class="col-sm-3 col-md-6 mt-3">
+                      <label for="edit-dataNascimento" class="form-label">Data Nascimento:</label>
+                      <input type="date" class="form-control" id="edit-dataNascimento" required>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                      <label for="edit-status" class="form-label">Status:</label>
+                      <select id="edit-status" class="form-control">
+                        <option value="true">Ativo</option>
+                        <option value="false">Inativo</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                      <label for="edit-servico" class="form-label">Serviços:</label>
+                      <select class="form-control" id="edit-servico" multiple size="7">
+                        <!-- <option value="Corte de Cabelo">Corte de Cabelo</option>
+                        <option value="Corte Infantil">Corte Infantil</option>
+                        <option value="Barba c/ Navalha">Barba c/ Navalha</option>
+                        <option value="Barba Desenhada">Barba Desenhada</option>
+                        <option value="Hidratação Cabelo">Hidratação Cabelo</option>
+                        <option value="Hidratação Barba">Hidratação Barba</option> -->
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <!-- Seção 2: Agenda - Dias Disponíveis -->
+                  <div class="col-md-6 mb-3 ps-4">
+                    <h5 class="text-center">Agenda - Dias Disponíveis</h5>
+                    <div class="row justify-content-center">
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-domingo">
+                        <label class="form-check-label" for="edit-domingo">Domingo</label>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-segunda">
+                        <label class="form-check-label" for="edit-segunda">Segunda-feira</label>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-terca">
+                        <label class="form-check-label" for="edit-terca">Terça-feira</label>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-quarta">
+                        <label class="form-check-label" for="edit-quarta">Quarta-feira</label>
+                      </div>
+                      <div class="form-check form-switch ">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-quinta">
+                        <label class="form-check-label" for="edit-quinta">Quinta-feira</label>
+                      </div>
+                      <div class="form-check form-switch ">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-sexta">
+                        <label class="form-check-label" for="edit-sexta">Sexta-feira</label>
+                      </div>
+                      <div class="form-check form-switch ">
+                        <input class="form-check-input" type="checkbox" role="switch" id="edit-sabado">
+                        <label class="form-check-label" for="edit-sabado">Sábado</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Seção 3: Horário de Atendimento -->
+                  <div id="editar-horarios-disponiveis" class=" row col-md-6 mt-4 ps-4 justify-content-between">
+                    <h5 class="text-center">Horário de Atendimento</h5>
+
+                    <div class="col-sm-3 col-md-4">
+                      <div class="row justify-content-center">
+
+                        <label for="edit-horarioinicial" class="form-label">Início:</label>
+                        <input type="time" class="form-control" id="edit-horarioinicial" required>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-3 col-md-4">
+                      <div class="row justify-content-center">
+                        <label for="edit-horariofinal" class="form-label">Fim:</label>
+                        <input type="time" class="form-control" id="edit-horariofinal" required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="btn-popup-" data-bs-dismiss="modal">Cancelar</button>
+              <button id="salvar-edicao-barbeiro" type="button" class="btn-popup-">Salvar</button>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- <script>
+        // Função para abrir o modal usando o Bootstrap 5
+        function abrirModal() {
+          var modal = new bootstrap.Modal(document.getElementById('modal-edicao'), {
+            keyboard: false
+          });
+          modal.show();
+        }
+
+        // Função para fechar o modal usando o Bootstrap 5
+        function fecharModal() {
+          var modalElement = document.getElementById('modal-edicao');
+          var modal = bootstrap.Modal.getInstance(modalElement);
+          modal.hide();
+        }
+      </script> -->
+
+      <!-- <script>
+        // Associar a função ao evento click do botão
+        document.getElementById("salvar-edicao-barbeiro").addEventListener("click", salvarEdicao());
+      </script> -->
+
+
+
+    </section>
+
+    <!-- Botão para abrir o modal -->
+    <div class="text-center">
+      <button id="btn-cad-barbeiro" type="button" class="btn-cad-barbeiro" data-bs-toggle="modal"
+        data-bs-target="#cadastroModal" style="background-color: #c79655;">
+        CADASTRAR NOVOS
+      </button>
+    </div>
+
+    <div class="modal fade fs-6" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg rounded-pill">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center w-100" id="cadastroModalLabel">CADASTRAR BARBEIRO</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="form-cadastro">
+              <!-- Seção 1: Formulário de Cadastro -->
+              <div class="mb-3">
+                <h5 class="text-center">Dados do Barbeiro</h5>
+                <div class="row ">
+                  <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome: </label>
+                    <input type="text" class="form-control" id="nome" name="nome" required>
+
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">E-mail: </label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="col-sm-3 col-md-6 mt-3">
+                    <label for="senha" class="form-label">Senha: </label>
+                    <input type="password" class="form-control" id="senha" name="senha" required>
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <label for="confirmarEmail" class="form-label">Confirmar E-mail: </label>
+                    <input type="email" class="form-control" id="confirmarEmail" name="confirmarEmail" required>
+                  </div>
+
+                </div>
+                <div class="row mt-3 ">
+
+                  <div class="col-md-6">
+                    <label for="confirmarSenha" class="form-label">Confirmar senha: </label>
+                    <input type="password" class="form-control" id="confirmarSenha" name="confirmarSenha">
+                  </div>
+
+                  <div class="col-sm-3 col-md-6">
+
+                    <!-- data-mask="(00) 00000-0000" -->
+                    <label for="telefone" class="form-label">Telefone: </label>
+                    <input type="text" class="form-control" id="telefone" name="telefone" required>
+                  </div>
+
+                  <div class="col-sm-3 col-md-6 mt-3">
+                    <label for="dataNascimento" class="form-label">Data Nascimento:</label>
+                    <input type="date" class="form-control" id="dataNascimento" required>
+                  </div>
+
+                  <div class="col-md-6 mt-3 mb-3">
+                    <label for="servico-cad-barbeiro" class="form-label">Serviços: </label>
+                    <select class="col-md-12" id="servico-cad-barbeiro" multiple size="7">
+
+                      <!-- <option value="" disabled selected>Selecione os serviços</option> 
+
+                      <option value="Corte de Cabelo">Corte de Cabelo</option>
+                      <option value="Corte Infantil">Corte Infantil</option>
+                      <option value="Barba c/ Navalha">Barba c/ Navalha</option>
+                      <option value="Barba Desenhada">Barba Desenhada</option>
+                      <option value="Hidratação Cabelo">Hidratação Cabelo</option>
+                      <option value="Hidratação Barba">Hidratação Barba</option>  -->
+
+                    </select>
+
+
+
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Seção 2: Agenda (Dias Disponíveis em 7 colunas) -->
+                <div class="col-md-6 mb-3 ps-4">
+                  <h5 class="text-center">Agenda - Dias Disponíveis</h5>
+                  <div class="row justify-content-center justify-content-center">
+
+                    <div class="form-check form-switch mt-3">
+                      <input class="form-check-input" type="checkbox" role="switch" id="domingo">
+                      <label class="form-check-label" for="domingo">Domingo</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="segunda">
+                      <label class="form-check-label" for="segunda">Segunda-feira</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="terca">
+                      <label class="form-check-label" for="terca">Terça-feira</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="quarta">
+                      <label class="form-check-label" for="quarta">Quarta-feira</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="quinta">
+                      <label class="form-check-label" for="quinta">Quinta-feira</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" role="switch" id="sexta">
+                      <label class="form-check-label" for="sexta">Sexta-feira</label>
+                    </div>
+                    <div class="form-check form-switch  mb-3">
+                      <input class="form-check-input" type="checkbox" role="switch" id="sabado">
+                      <label class="form-check-label" for="sabado">Sábado</label>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <!-- Seção 3: Horários Disponíveis (08h às 20h) em 4 colunas -->
+                <div id="horarios-disponiveis" class="row col-md-6 mb-3 ps-4 justify-content-between">
+                  <h5 class="text-center">Horário de Atendimento</h5>
+
+                  <div class="col-sm-3 col-md-4 mb-3">
+                    <div class="row justify-content-center">
+
+                      <label for="temposervico" class="form-label mt-3">Início</label>
+                      <input type="time" class="form-control" id="horarioinicial" required>
+
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3 col-md-4 mb-3 justify-content-start">
+
+                    <div class="row justify-content-center ">
+
+                      <label for="temposervico" class="form-label mt-3">Fim</label>
+                      <input type="time" class="form-control" id="horariofinal" required>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn-popup-" data-bs-dismiss="modal">Cancelar</button>
+            <button id="salvar-barbeiro" type="button" class="btn-popup-">Salvar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="container-fluid bg-dark text-light justify-content-between text-center">
+    <footer class="py-5 pb-0">
+      <div class="row d-flex justify-content-between">
+        <div class="col col-md-4 mb-3 ">
+          <h5>ENDEREÇO</h5>
+          <P>Av. Aggeo Pio Sobrinho, Buritis, 577, Belo-Horizonte-MG</P>
+        </div>
+
+        <div class="col col-md-4 mb-3 ">
+          <h5>CONTATO</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">barberapp@gmail.com (31)
+                91234-5678</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">contato.barberapp@gmail.com (31)
+                98765-4321</a></li>
+
+          </ul>
+        </div>
+
+        <div class="col col-md-4 mb-3 ">
+          <h5>REDES SOCIAIS</h5>
+          <ul class="nav flex-column ">
+            <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-light"><img src="img/INSTAGRAN.png"
+                  style="max-height: 70px; max-width: 20px" alt=""> @agenda_barber</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><img src="img/FACEBOOK.png"
+                  style="max-height: 70px; max-width: 15px" alt=""> @agenda_barber</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="container-fluid flex-column flex-sm-row justify-content-between py-4 my-4 text-center  mb-0 "
+        style="border-top: 2px solid #c79655;">
+        <p>© 2024 Company, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
